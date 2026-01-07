@@ -1,0 +1,423 @@
+:root {
+  --ratio: 1;
+  --height-width-ratio: 1;
+  --font-ratio: 0.7;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.col-flex {
+  flex-direction: column;
+}
+.hero-section {
+  padding: 1rem 2rem !important;
+  display: flex !important;
+  gap: 2.5rem;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.hero-left {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  row-gap: 1rem !important;
+}
+
+.hero-schedule-title {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: calc(var(--font-ratio) * 96px) !important;
+  line-height: 100% !important;
+  background: linear-gradient(157deg, #2c4a8e 0%, #4b5f8b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25) !important;
+}
+
+.hero-schedule-page-tag {
+}
+
+.hero-schedule-page-tag span {
+  color: #ff9800 !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: calc(var(--font-ratio) * 25px) !important;
+  line-height: 28px !important;
+}
+
+.hero-schedule-page-tag span:nth-child(1) {
+  color: #71717a !important;
+  margin-left: 5px !important;
+}
+
+.hero-image-box {
+  width: 884px !important;
+  max-width: 100vw;
+  height: 214px !important;
+  /* border: .1rem solid #FF9800; */
+  border-radius: 20px !important;
+  overflow: hidden;
+  /* background: #d9d9d9 !important; */
+}
+
+.hero-image-box img {
+  object-position: 0% 20%;
+  width: 884px !important;
+  max-width: 100%;
+  height: 214px !important;
+  object-fit: cover;
+}
+
+.schedule-day-title {
+  text-decoration: none !important;
+  color: #71717a !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: calc(var(--font-ratio) * 48px) !important;
+  line-height: 100% !important;
+}
+
+.schedule-day.active .schedule-day-title {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  background: linear-gradient(157deg, #2c4a8e 0%, #4b5f8b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25) !important;
+}
+
+input[name="schedule-day-radio"] {
+  display: none !important;
+}
+
+.schedule-day-dropdown {
+  display: none;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  row-gap: 0.8rem;
+  margin: 40px 11px 0 !important;
+  background: linear-gradient(
+    180deg,
+    #d9d9d93b 0%,
+    rgb(99, 99, 99, 0.1) 0%
+  ) !important;
+
+  border-radius: 1rem !important;
+  width: 334px !important;
+  height: 138px !important;
+}
+
+.schedule-day.active .schedule-day-dropdown {
+  display: flex !important;
+}
+
+.schedule-section {
+  margin: 60px 1rem !important;
+  padding: calc(var(--ratio) * var(--height-width-ratio) * 69px)
+    calc(var(--ratio) * 48px);
+  background: rgba(99, 99, 99, 0.05) !important;
+  border: 2px solid rgba(255, 152, 0, 0.5);
+  border: 2px solid rgb(44, 74, 142, 0.2);
+
+  border-radius: 1rem !important;
+}
+
+.schedule-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+}
+.schedule-days-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+
+.schedule-day-dropdown-item.active {
+  color: #09090b !important;
+}
+.schedule-day-dropdown-item {
+  text-decoration: none !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: calc(var(--font-ratio) * 32px) !important;
+  line-height: 100% !important;
+  color: #71717a !important;
+}
+
+/* schedule-box-right */
+.schedule-box-right {
+  padding-block: 80px 30px;
+  width: 100%;
+  background: rgba(99, 99, 99, 0.05) !important;
+  border: 2px solid rgba(255, 152, 0, 0.5);
+  box-shadow: 5px 25px 50px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 1rem;
+  position: relative;
+}
+
+/* .schedule-box-right-bottom-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 500; 
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  border-radius: 0 0 16px 16px;
+  pointer-events: none;
+} */
+
+.schedule-box-right-wrapper {
+  overflow-y: scroll;
+  padding-inline: 30px;
+  height: calc(1080px - 2 * 70px);
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.schedule-box-right-wrapper::-webkit-scrollbar {
+  width: 14px;
+  top: 10px;
+}
+
+.schedule-box-right-wrapper::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.schedule-box-right-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.schedule-box-right-wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#top-rectangle-design {
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  justify-self: center;
+  top: 25px;
+  left: 0;
+  right: 0;
+  background: rgb(44, 74, 142, 0.2);
+  border-radius: 100px;
+}
+
+.schedule-box-title {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: calc(var(--font-ratio) * 41px) !important;
+  line-height: 140% !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  background: linear-gradient(157deg, #2c4a8e 0%, #4b5f8b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25) !important;
+  text-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25) !important;
+  text-align: center;
+}
+
+.schedule-box-title {
+}
+
+.schedule-session-blocks {
+  display: grid;
+  margin-top: 2rem;
+  /* grid-template-rows: 1fr; */
+  row-gap: 0.5rem;
+}
+.schedule-session-block {
+  display: flex;
+  flex-direction: row !important;
+  padding: 19px 2rem;
+  column-gap: 3.2rem;
+  align-items: center !important;
+  border-radius: 1rem !important;
+  width: 100% !important;
+  height: 121px !important;
+  transition: 0.4s background;
+}
+.schedule-session-block.active,
+.schedule-session-block:hover {
+  background: linear-gradient(
+    180deg,
+    #d9d9d93b 0%,
+    rgb(99, 99, 99, 0.1) 0%
+  ) !important;
+}
+
+.schedule-session-block-session-details {
+  row-gap: 6px;
+}
+
+.schedule-session-block-time {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(var(--font-ratio) * 59.895px);
+  line-height: 100%;
+  color: rgba(9, 9, 11, 0.8);
+  position: relative;
+}
+.schedule-session-block-time::before {
+  content: "-";
+  position: absolute;
+  top: 23%;
+  right: -23px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(var(--font-ratio) * 59.895px);
+  line-height: 100%;
+  color: rgba(9, 9, 11, 0.8);
+}
+.schedule-session-block-time::after {
+  content: var(--time-appendix, "");
+  position: absolute;
+  top: -8px;
+  right: -28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(9, 9, 11, 0.7);
+}
+.schedule-session-block-session-title {
+  font-family: "Inter";
+  width: 25rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(var(--font-ratio) * 34.26px);
+  line-height: 110%;
+  color: #71717a;
+}
+.schedule-session-block-session-anchor {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(var(--font-ratio) * 28.57px);
+  line-height: 115%;
+  color: rgba(9, 9, 11, 0.7);
+}
+
+/* Responsive */
+@media screen and (max-width: 1250px) {
+  :root {
+    --ratio: 0.64;
+    --height-width-ratio: 2;
+  }
+}
+@media screen and (max-width: 1250px) {
+  :root {
+    --ratio: 0.4;
+    --height-width-ratio: 2;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  :root {
+    --ratio: 0.4;
+    --height-width-ratio: 2;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  :root {
+    --ratio: 0.4;
+    --height-width-ratio: 1.8;
+  }
+
+  .schedule-box-left {
+    transform: scale(0.9);
+  }
+  .schedule-box-right {
+    transform: scale(0.96);
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .schedule-box-left {
+    display: none;
+  }
+
+  .schedule-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .schedule-section {
+    padding: 0 !important;
+    background: transparent !important;
+    border: none !important;
+  }
+
+  .schedule-session-block-session-title {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --font-ratio: 0.5;
+  }
+
+  .hero-section {
+    flex-direction: column-reverse;
+    row-gap: 2rem;
+  }
+
+  .hero-image-box {
+    border-radius: 0px !important;
+  }
+
+  .hero-schedule-page-tag span {
+    font-size: 1rem !important;
+  }
+
+  .hero-schedule-page-tag span:nth-child(1) {
+    font-size: 1rem !important;
+  }
+
+  .schedule-section {
+    margin: 20px 0.5rem !important;
+  }
+
+  .schedule-box-right-wrapper {
+    padding-inline: 15px;
+  }
+  .schedule-box-title {
+    padding-inline: 0.2rem;
+  }
+
+  .schedule-session-block {
+    height: 110px !important;
+    padding-block: 0.2rem;
+  }
+
+  .cta-section {
+    gap: 30px;
+    padding: 50px 56px;
+  }
+  .cta-title {
+    width: 90vw;
+    font-size: 38px;
+  }
+}

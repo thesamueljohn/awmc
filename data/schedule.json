@@ -1,0 +1,1013 @@
+[
+  {
+    "date": "2025-08-13",
+    "title": "Wednesday, 13th August 2025 • Evening Plenary Session",
+    "sessions": [
+      {
+        "startTime": "4:00",
+        "duration": "00:05",
+        "endTime": "4:05",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Events Introduction & Opening Prayer"
+      },
+      {
+        "startTime": "4:05",
+        "duration": "00:15",
+        "endTime": "4:20",
+        "timeAppendix": "PM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Flags & The Tiny Theologians"
+      },
+      {
+        "startTime": "4:20",
+        "duration": "00:30",
+        "endTime": "4:50",
+        "timeAppendix": "PM",
+        "person": "Intercession Leader",
+        "media": "",
+        "sessionTitle": "Prayer Plenary (1): Interceding for Nations & Missions"
+      },
+      {
+        "startTime": "4:50",
+        "duration": "00:10",
+        "endTime": "5:00",
+        "timeAppendix": "PM",
+        "person": "Worship team",
+        "media": "",
+        "sessionTitle": "Music Ministration"
+      },
+      {
+        "startTime": "5:00",
+        "duration": "00:45",
+        "endTime": "5:45",
+        "timeAppendix": "PM",
+        "person": "Plenary Minister",
+        "media": "",
+        "sessionTitle": "Plenary 1 (Reaching the Nations with the Light)"
+      },
+      {
+        "startTime": "5:45",
+        "duration": "00:05",
+        "endTime": "5:50",
+        "timeAppendix": "PM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Music Ministration"
+      },
+      {
+        "startTime": "5:50",
+        "duration": "00:05",
+        "endTime": "5:55",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "5:55",
+        "duration": "01:00",
+        "endTime": "6:55",
+        "timeAppendix": "PM",
+        "person": "Plenary Minister",
+        "media": "",
+        "sessionTitle": "Plenary 2 (Reaching the Nations with the Light)"
+      },
+      {
+        "startTime": "6:55",
+        "duration": "00:10",
+        "endTime": "7:05",
+        "timeAppendix": "PM",
+        "person": "General",
+        "media": "",
+        "sessionTitle": "Friendship & Networking"
+      },
+      {
+        "startTime": "7:05",
+        "duration": "00:10",
+        "endTime": "7:15",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Announcements: Counselling and Commitment from Altar Call"
+      },
+      {
+        "startTime": "7:15",
+        "duration": "",
+        "endTime": "",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Closing"
+      }
+    ]
+  },
+  {
+    "date": "2025-08-14",
+    "title": "Thursday, 14th August 2025 • Morning Plenary Session",
+    "sessions": [
+      {
+        "startTime": "9:00",
+        "duration": "00:05",
+        "endTime": "9:05",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Opening Prayer"
+      },
+      {
+        "startTime": "9:05",
+        "duration": "00:10",
+        "endTime": "9:15",
+        "timeAppendix": "AM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Worship"
+      },
+      {
+        "startTime": "9:15",
+        "duration": "00:05",
+        "endTime": "9:20",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "9:20",
+        "duration": "00:15",
+        "endTime": "9:35",
+        "timeAppendix": "AM",
+        "person": "Devotional Leader",
+        "media": "",
+        "sessionTitle": "Devotional (1)"
+      },
+      {
+        "startTime": "9:35",
+        "duration": "00:10",
+        "endTime": "9:45",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "9:45",
+        "duration": "00:40",
+        "endTime": "10:25",
+        "timeAppendix": "AM",
+        "person": "Plenary Minister",
+        "media": "",
+        "sessionTitle": "Plenary 3: Reaching the Nations with the Light"
+      },
+      {
+        "startTime": "10:25",
+        "duration": "00:10",
+        "endTime": "10:35",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Altar Calls"
+      },
+      {
+        "startTime": "10:35",
+        "duration": "00:10",
+        "endTime": "10:45",
+        "timeAppendix": "AM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Worship"
+      },
+      {
+        "startTime": "10:45",
+        "duration": "00:05",
+        "endTime": "10:50",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introducing Breakout Sessions"
+      },
+      {
+        "startTime": "10:50",
+        "duration": "01:00",
+        "endTime": "11:50",
+        "timeAppendix": "AM",
+        "person": "Breakout Ministers",
+        "media": "",
+        "sessionTitle": "Breakout Sessions (1)"
+      },
+      {
+        "startTime": "11:50",
+        "duration": "00:05",
+        "endTime": "11:55",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "11:55",
+        "duration": "00:20",
+        "endTime": "12:15",
+        "timeAppendix": "PM",
+        "person": "Intercession Leader",
+        "media": "",
+        "sessionTitle": "Prayer Plenary (2): Interceding for Nations & Missions"
+      },
+      {
+        "startTime": "12:15",
+        "duration": "00:10",
+        "endTime": "12:25",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introducing Breakout Sessions"
+      },
+      {
+        "startTime": "12:25",
+        "duration": "01:00",
+        "endTime": "1:25",
+        "timeAppendix": "PM",
+        "person": "Breakout Ministers",
+        "media": "",
+        "sessionTitle": "Breakout Sessions (2)"
+      },
+      {
+        "startTime": "1:25",
+        "duration": "00:35",
+        "endTime": "2:00",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Break/Lunch Fellowship"
+      },
+      {
+        "startTime": "2:00",
+        "duration": "01:00",
+        "endTime": "3:00",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Exhibitions"
+      }
+    ]
+  },
+  {
+    "date": "2025-08-14",
+    "title": "Thursday, 14th August 2025 • Evening Plenary Session",
+    "sessions": [
+      {
+        "startTime": "4:00",
+        "duration": "00:05",
+        "endTime": "4:05",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Events Introduction & Opening Prayer"
+      },
+      {
+        "startTime": "4:05",
+        "duration": "00:15",
+        "endTime": "4:20",
+        "timeAppendix": "PM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Worship"
+      },
+      {
+        "startTime": "4:20",
+        "duration": "00:20",
+        "endTime": "4:40",
+        "timeAppendix": "PM",
+        "person": "Video show",
+        "media": "",
+        "sessionTitle": "Video Documentary"
+      },
+      {
+        "startTime": "4:40",
+        "duration": "00:10",
+        "endTime": "4:50",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introducing Breakout Sessions"
+      },
+      {
+        "startTime": "4:50",
+        "duration": "01:00",
+        "endTime": "5:50",
+        "timeAppendix": "PM",
+        "person": "Breakout Ministers",
+        "media": "",
+        "sessionTitle": "Breakout Sessions (3)"
+      },
+      {
+        "startTime": "5:50",
+        "duration": "00:10",
+        "endTime": "6:00",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Missionary Testimonies"
+      },
+      {
+        "startTime": "6:00",
+        "duration": "00:05",
+        "endTime": "6:05",
+        "timeAppendix": "PM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Music Ministration"
+      },
+      {
+        "startTime": "6:05",
+        "duration": "00:05",
+        "endTime": "6:10",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "6:10",
+        "duration": "00:45",
+        "endTime": "6:55",
+        "timeAppendix": "PM",
+        "person": "Plenary Minister",
+        "media": "",
+        "sessionTitle": "Plenary (4): Reaching the Nations with the Light"
+      },
+      {
+        "startTime": "6:55",
+        "duration": "00:10",
+        "endTime": "7:05",
+        "timeAppendix": "PM",
+        "person": "General",
+        "media": "",
+        "sessionTitle": "Friendship & Networking"
+      },
+      {
+        "startTime": "7:05",
+        "duration": "00:10",
+        "endTime": "7:15",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Announcements: Counselling and Commitment from Altar Call"
+      },
+      {
+        "startTime": "7:15",
+        "duration": "",
+        "endTime": "",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Closing"
+      }
+    ]
+  },
+  {
+    "date": "2025-08-15",
+    "title": "Friday, 15th August 2025 • Morning Plenary Session",
+    "sessions": [
+      {
+        "startTime": "9:00",
+        "duration": "00:05",
+        "endTime": "9:05",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Opening Prayer"
+      },
+      {
+        "startTime": "9:05",
+        "duration": "00:10",
+        "endTime": "9:15",
+        "timeAppendix": "AM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Worship"
+      },
+      {
+        "startTime": "9:15",
+        "duration": "00:05",
+        "endTime": "9:20",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "9:20",
+        "duration": "00:15",
+        "endTime": "9:35",
+        "timeAppendix": "AM",
+        "person": "Devotional Leader",
+        "media": "",
+        "sessionTitle": "Devotional (2)"
+      },
+      {
+        "startTime": "9:35",
+        "duration": "00:10",
+        "endTime": "9:45",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "9:45",
+        "duration": "00:40",
+        "endTime": "10:25",
+        "timeAppendix": "AM",
+        "person": "Plenary Minister",
+        "media": "",
+        "sessionTitle": "Plenary (5): Reaching the Nations with the Light"
+      },
+      {
+        "startTime": "10:25",
+        "duration": "00:10",
+        "endTime": "10:35",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Altar Calls"
+      },
+      {
+        "startTime": "10:35",
+        "duration": "00:10",
+        "endTime": "10:45",
+        "timeAppendix": "AM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Worship"
+      },
+      {
+        "startTime": "10:45",
+        "duration": "00:05",
+        "endTime": "10:50",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introducing Breakout Sessions"
+      },
+      {
+        "startTime": "10:50",
+        "duration": "01:00",
+        "endTime": "11:50",
+        "timeAppendix": "AM",
+        "person": "Breakout Ministers",
+        "media": "",
+        "sessionTitle": "Breakout Sessions (4)"
+      },
+      {
+        "startTime": "11:50",
+        "duration": "00:05",
+        "endTime": "11:55",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "11:55",
+        "duration": "00:20",
+        "endTime": "12:15",
+        "timeAppendix": "PM",
+        "person": "Intercession Leader",
+        "media": "",
+        "sessionTitle": "Prayer Plenary (3): Interceding for Nations & Missions"
+      },
+      {
+        "startTime": "12:15",
+        "duration": "00:10",
+        "endTime": "12:25",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introducing Breakout Sessions"
+      },
+      {
+        "startTime": "12:25",
+        "duration": "01:00",
+        "endTime": "1:25",
+        "timeAppendix": "PM",
+        "person": "Breakout Ministers",
+        "media": "",
+        "sessionTitle": "Breakout Sessions (5)"
+      },
+      {
+        "startTime": "1:25",
+        "duration": "00:35",
+        "endTime": "2:00",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Break/Lunch Fellowship"
+      },
+      {
+        "startTime": "2:00",
+        "duration": "01:00",
+        "endTime": "3:00",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Exhibitions"
+      }
+    ]
+  },
+  {
+    "date": "2025-08-15",
+    "title": "Friday, 15th August 2025 • Evening Plenary Session",
+    "sessions": [
+      {
+        "startTime": "4:00",
+        "duration": "00:05",
+        "endTime": "4:05",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Events Introduction & Opening Prayer"
+      },
+      {
+        "startTime": "4:05",
+        "duration": "00:15",
+        "endTime": "4:20",
+        "timeAppendix": "PM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Worship"
+      },
+      {
+        "startTime": "4:20",
+        "duration": "00:20",
+        "endTime": "4:40",
+        "timeAppendix": "PM",
+        "person": "Video show",
+        "media": "",
+        "sessionTitle": "Video Documentary"
+      },
+      {
+        "startTime": "4:40",
+        "duration": "00:10",
+        "endTime": "4:50",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introducing Breakout Sessions"
+      },
+      {
+        "startTime": "4:50",
+        "duration": "01:00",
+        "endTime": "5:50",
+        "timeAppendix": "PM",
+        "person": "Breakout Ministers",
+        "media": "",
+        "sessionTitle": "Breakout Sessions (6)"
+      },
+      {
+        "startTime": "5:50",
+        "duration": "00:10",
+        "endTime": "6:00",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Missionary Testimonies"
+      },
+      {
+        "startTime": "6:00",
+        "duration": "00:05",
+        "endTime": "6:05",
+        "timeAppendix": "PM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Music Ministration"
+      },
+      {
+        "startTime": "6:05",
+        "duration": "00:05",
+        "endTime": "6:10",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "6:10",
+        "duration": "00:45",
+        "endTime": "6:55",
+        "timeAppendix": "PM",
+        "person": "Plenary Minister",
+        "media": "",
+        "sessionTitle": "Plenary (6): Reaching the Nations with the Light"
+      },
+      {
+        "startTime": "6:55",
+        "duration": "00:10",
+        "endTime": "7:05",
+        "timeAppendix": "PM",
+        "person": "General",
+        "media": "",
+        "sessionTitle": "Friendship & Networking"
+      },
+      {
+        "startTime": "7:05",
+        "duration": "00:10",
+        "endTime": "7:15",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Announcements: Counselling and Commitment from Altar Call"
+      },
+      {
+        "startTime": "7:15",
+        "duration": "",
+        "endTime": "",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Closing"
+      }
+    ]
+  },
+  {
+    "date": "2025-08-16",
+    "title": "Saturday, 16th August 2025 • Morning Plenary Session",
+    "sessions": [
+      {
+        "startTime": "9:00",
+        "duration": "00:05",
+        "endTime": "9:05",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Opening Prayer"
+      },
+      {
+        "startTime": "9:05",
+        "duration": "00:10",
+        "endTime": "9:15",
+        "timeAppendix": "AM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Worship"
+      },
+      {
+        "startTime": "9:15",
+        "duration": "00:05",
+        "endTime": "9:20",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "9:20",
+        "duration": "00:15",
+        "endTime": "9:35",
+        "timeAppendix": "AM",
+        "person": "Devotional Leader",
+        "media": "",
+        "sessionTitle": "Devotional (3)"
+      },
+      {
+        "startTime": "9:35",
+        "duration": "00:10",
+        "endTime": "9:45",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "9:45",
+        "duration": "00:40",
+        "endTime": "10:25",
+        "timeAppendix": "AM",
+        "person": "Plenary Minister",
+        "media": "",
+        "sessionTitle": "Plenary (7): Reaching the Nations with the Light"
+      },
+      {
+        "startTime": "10:25",
+        "duration": "00:10",
+        "endTime": "10:35",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Altar Calls"
+      },
+      {
+        "startTime": "10:35",
+        "duration": "00:10",
+        "endTime": "10:45",
+        "timeAppendix": "AM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Worship"
+      },
+      {
+        "startTime": "10:45",
+        "duration": "00:05",
+        "endTime": "10:50",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introducing Breakout Sessions"
+      },
+      {
+        "startTime": "10:50",
+        "duration": "01:00",
+        "endTime": "11:50",
+        "timeAppendix": "AM",
+        "person": "Breakout Ministers",
+        "media": "",
+        "sessionTitle": "Breakout Sessions (7)"
+      },
+      {
+        "startTime": "11:50",
+        "duration": "00:05",
+        "endTime": "11:55",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "11:55",
+        "duration": "00:20",
+        "endTime": "12:15",
+        "timeAppendix": "PM",
+        "person": "Intercession Leader",
+        "media": "",
+        "sessionTitle": "Prayer Plenary (4): Interceding for Nations & Missions"
+      },
+      {
+        "startTime": "12:15",
+        "duration": "00:10",
+        "endTime": "12:25",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introducing Breakout Sessions"
+      },
+      {
+        "startTime": "12:25",
+        "duration": "01:00",
+        "endTime": "1:25",
+        "timeAppendix": "PM",
+        "person": "Breakout Ministers",
+        "media": "",
+        "sessionTitle": "Breakout Sessions (8)"
+      },
+      {
+        "startTime": "1:25",
+        "duration": "00:35",
+        "endTime": "2:00",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Break/Lunch Fellowship"
+      },
+      {
+        "startTime": "2:00",
+        "duration": "01:00",
+        "endTime": "3:00",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Exhibitions"
+      }
+    ]
+  },
+  {
+    "date": "2025-08-16",
+    "title": "Saturday, 16th August 2025 • Evening Plenary Session",
+    "sessions": [
+      {
+        "startTime": "4:00",
+        "duration": "00:05",
+        "endTime": "4:05",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Events Introduction & Opening Prayer"
+      },
+      {
+        "startTime": "4:05",
+        "duration": "00:15",
+        "endTime": "4:20",
+        "timeAppendix": "PM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Worship"
+      },
+      {
+        "startTime": "4:20",
+        "duration": "00:20",
+        "endTime": "4:40",
+        "timeAppendix": "PM",
+        "person": "Video show",
+        "media": "",
+        "sessionTitle": "Video Documentary"
+      },
+      {
+        "startTime": "4:40",
+        "duration": "00:10",
+        "endTime": "4:50",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introducing Breakout Sessions"
+      },
+      {
+        "startTime": "4:50",
+        "duration": "01:00",
+        "endTime": "5:50",
+        "timeAppendix": "PM",
+        "person": "Breakout Ministers",
+        "media": "",
+        "sessionTitle": "Breakout Sessions (9)"
+      },
+      {
+        "startTime": "5:50",
+        "duration": "00:10",
+        "endTime": "6:00",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Missionary Testimonies"
+      },
+      {
+        "startTime": "6:00",
+        "duration": "00:05",
+        "endTime": "6:05",
+        "timeAppendix": "PM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Music Ministration"
+      },
+      {
+        "startTime": "6:05",
+        "duration": "00:05",
+        "endTime": "6:10",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Minister"
+      },
+      {
+        "startTime": "6:10",
+        "duration": "00:45",
+        "endTime": "6:55",
+        "timeAppendix": "PM",
+        "person": "Plenary Minister",
+        "media": "",
+        "sessionTitle": "Plenary (8): Reaching the Nations with the Light"
+      },
+      {
+        "startTime": "6:55",
+        "duration": "00:10",
+        "endTime": "7:05",
+        "timeAppendix": "PM",
+        "person": "General",
+        "media": "",
+        "sessionTitle": "Friendship & Networking"
+      },
+      {
+        "startTime": "7:05",
+        "duration": "00:10",
+        "endTime": "7:15",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Announcements: Counselling and Commitment from Altar Call"
+      },
+      {
+        "startTime": "7:15",
+        "duration": "",
+        "endTime": "",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "Closing"
+      }
+    ]
+  },
+  {
+    "date": "2025-08-17",
+    "title": "Sunday, 17th August 2025 • Morning Plenary Session",
+    "sessions": [
+      {
+        "startTime": "9:00",
+        "duration": "00:05",
+        "endTime": "9:05",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Opening Prayer"
+      },
+      {
+        "startTime": "9:05",
+        "duration": "00:15",
+        "endTime": "9:20",
+        "timeAppendix": "AM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Prayer & Praise"
+      },
+      {
+        "startTime": "9:20",
+        "duration": "00:05",
+        "endTime": "9:25",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Event"
+      },
+      {
+        "startTime": "9:25",
+        "duration": "00:20",
+        "endTime": "9:45",
+        "timeAppendix": "AM",
+        "person": "Children in Missions",
+        "media": "",
+        "sessionTitle": "Children Presentation"
+      },
+      {
+        "startTime": "9:45",
+        "duration": "00:05",
+        "endTime": "9:50",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Introduction of Events"
+      },
+      {
+        "startTime": "9:50",
+        "duration": "00:35",
+        "endTime": "10:25",
+        "timeAppendix": "AM",
+        "person": "FMI Missionaries",
+        "media": "",
+        "sessionTitle": "Missionary Testimonies"
+      },
+      {
+        "startTime": "10:25",
+        "duration": "00:10",
+        "endTime": "10:35",
+        "timeAppendix": "AM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Announcements"
+      },
+      {
+        "startTime": "10:35",
+        "duration": "00:30",
+        "endTime": "11:05",
+        "timeAppendix": "AM",
+        "person": "Video Show",
+        "media": "",
+        "sessionTitle": "Video Documentary"
+      },
+      {
+        "startTime": "11:05",
+        "duration": "00:20",
+        "endTime": "11:25",
+        "timeAppendix": "AM",
+        "person": "Worship Team",
+        "media": "",
+        "sessionTitle": "Prayer & Praise"
+      },
+      {
+        "startTime": "11:25",
+        "duration": "01:00",
+        "endTime": "12:25",
+        "timeAppendix": "PM",
+        "person": "Plenary Minister",
+        "media": "",
+        "sessionTitle": "Plenary (9): Reaching the Nations with the Light"
+      },
+      {
+        "startTime": "12:25",
+        "duration": "01:00",
+        "endTime": "1:25",
+        "timeAppendix": "PM",
+        "person": "Moderator",
+        "media": "",
+        "sessionTitle": "Feedbacks, Prayers & Decisions"
+      },
+      {
+        "startTime": "1:25",
+        "duration": "",
+        "endTime": "",
+        "timeAppendix": "PM",
+        "person": "",
+        "media": "",
+        "sessionTitle": "AWMC Closes"
+      }
+    ]
+  }
+]
