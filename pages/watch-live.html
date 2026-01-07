@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AWMC Africa - Advancing World Missions Conference</title>
+    <link rel="stylesheet" href="../assets/styles/style.css" />
+    <link rel="stylesheet" href="../assets/styles/schedule.css" />
+    <link rel="stylesheet" href="../assets/styles/watch-live.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <img
+          draggable="false"
+          src="../assets/images/img_fmi_logo_1.png"
+          alt="FMI Logo"
+          class="logo"
+        />
+        <nav class="nav-menu">
+          <a href="../index.html" class="nav-item">Home</a>
+          <a href="#" class="nav-item dropdown-trigger" id="nav-item-about"
+            >About
+            <img
+              draggable="false"
+              src="../assets/images/img_chevron_down.svg"
+              alt
+              width="12"
+              height="12"
+          /></a>
+          <div class="dropdown-menu" id="dropdown-about">
+            <a href="../index.html#partners" class="dropdown-item">Partners</a>
+            <a
+              href="https://www.canva.com/design/DAGv3a95xHs/KrzkqroFVlqVPa85QIFLgQ/edit?utm_content=DAGv3a95xHs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              class="dropdown-item"
+              target="_blank"
+              >Speakers</a
+            >
+          </div>
+          <a href="#" class="nav-item dropdown-trigger" id="nav-item-program"
+            >Program
+            <img
+              draggable="false"
+              src="../assets/images/img_chevron_down.svg"
+              alt
+              width="12"
+              height="12"
+          /></a>
+          <div class="dropdown-menu" id="dropdown-program">
+            <a href="./schedule.html" class="dropdown-item">Schedule</a>
+            <a href="./breakout.html" class="dropdown-item"
+              >Breakout Sessions</a
+            >
+          </div>
+          <a href="#" class="nav-item dropdown-trigger" id="nav-item-resources"
+            >Resources
+            <img
+              draggable="false"
+              src="../assets/images/img_chevron_down.svg"
+              alt
+              width="12"
+              height="12"
+          /></a>
+          <div class="dropdown-menu" id="dropdown-resources">
+            <a
+              href="https://drive.google.com/file/d/1LbIRP4wqS7sNB21r9pUJ5ajwte5_RZk2/view"
+              class="dropdown-item"
+              target="_blank"
+              >Brochure/Booklet</a
+            >
+            <a
+              href="https://www.canva.com/design/DAGv0F2yHmY/KEHq3jKnDYRR7BgG7A3Ypw/edit"
+              class="dropdown-item"
+              target="_blank"
+              >Press Kit</a
+            >
+            <a href="#" class="dropdown-item">Past Conferences</a>
+          </div>
+          <a href="../index.html#faqs" class="nav-item">FAQs</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <a href="./watch-live.html" class="nav-item"
+          >Watch Live
+          <img
+            draggable="false"
+            src="../assets/images/img_arrow_down.svg"
+            alt
+            width="16"
+            height="16"
+        /></a>
+        <a
+          href="https://forms.gle/1hxgEcCYngCGh7ZW9"
+          target="_blank"
+          class="btn-register"
+          >Register</a
+        >
+
+        <div class="hamburger-menu" id="hamburger-menu">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <div class="mobile-menu-header">
+        <img
+          draggable="false"
+          src="../assets/images/img_fmi_logo_1.png"
+          alt="FMI Logo"
+          class="mobile-menu-logo"
+        />
+        <span class="mobile-menu-title">AWMC AFRICA</span>
+      </div>
+
+      <nav class="mobile-nav-menu">
+        <div class="mobile-nav-item">
+          <a href="../index.html" class="mobile-nav-link">Home</a>
+        </div>
+
+        <div class="mobile-nav-item">
+          <a
+            href="#"
+            class="mobile-nav-link has-dropdown"
+            data-dropdown="about"
+          >
+            About
+            <img
+              draggable="false"
+              src="../assets/images/img_chevron_down.svg"
+              alt
+              width="12"
+              height="12"
+              class="mobile-dropdown-icon"
+            />
+          </a>
+          <div class="mobile-dropdown-menu">
+            <a href="../index.html#partners" class="mobile-dropdown-item"
+              >Partners</a
+            >
+            <a
+              href="https://www.canva.com/design/DAGv3a95xHs/KrzkqroFVlqVPa85QIFLgQ/edit?utm_content=DAGv3a95xHs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              class="mobile-dropdown-item"
+              target="_blank"
+              >Speakers</a
+            >
+          </div>
+        </div>
+
+        <div class="mobile-nav-item">
+          <a
+            href="#"
+            class="mobile-nav-link has-dropdown"
+            data-dropdown="program"
+          >
+            Program
+            <img
+              draggable="false"
+              src="../assets/images/img_chevron_down.svg"
+              alt
+              width="12"
+              height="12"
+              class="mobile-dropdown-icon"
+            />
+          </a>
+          <div class="mobile-dropdown-menu">
+            <a href="./schedule.html" class="mobile-dropdown-item">Schedule</a>
+            <a href="./breakout.html" class="mobile-dropdown-item"
+              >Breakout Sessions</a
+            >
+          </div>
+        </div>
+
+        <div class="mobile-nav-item">
+          <a
+            href="#"
+            class="mobile-nav-link has-dropdown"
+            data-dropdown="resources"
+          >
+            Resources
+            <img
+              draggable="false"
+              src="../assets/images/img_chevron_down.svg"
+              alt
+              width="12"
+              height="12"
+              class="mobile-dropdown-icon"
+            />
+          </a>
+          <div class="mobile-dropdown-menu">
+            <a
+              href="https://drive.google.com/file/d/1LbIRP4wqS7sNB21r9pUJ5ajwte5_RZk2/view"
+              class="mobile-dropdown-item"
+              target="_blank"
+              >Brochure/Booklet</a
+            >
+            <a
+              href="https://www.canva.com/design/DAGv0F2yHmY/KEHq3jKnDYRR7BgG7A3Ypw/edit"
+              class="mobile-dropdown-item"
+              target="_blank"
+              >Press Kit</a
+            >
+            <a href="#" class="mobile-dropdown-item">Past Conferences</a>
+          </div>
+        </div>
+
+        <div class="mobile-nav-item">
+          <a href="../index.html#faqs" class="mobile-nav-link">FAQs</a>
+        </div>
+      </nav>
+
+      <div class="mobile-menu-actions">
+        <a href="./watch-live.html" class="mobile-watch-live">
+          Watch Live
+          <img
+            draggable="false"
+            src="../assets/images/img_arrow_down.svg"
+            alt
+            width="16"
+            height="16"
+          />
+        </a>
+        <a
+          href="https://forms.gle/1hxgEcCYngCGh7ZW9"
+          target="_blank"
+          class="mobile-register-btn"
+          >Register</a
+        >
+      </div>
+    </div>
+
+    <header class="header-space">
+      <div class="header-left">
+        <img
+          draggable="false"
+          src="../assets/images/img_fmi_logo_1.png"
+          alt="FMI Logo"
+          class="logo"
+          style="position: relative !important"
+        />
+        <nav class="nav-menu">
+          <a href="../index.html" class="nav-item">Home</a>
+          <a href="#" class="nav-item dropdown-trigger"
+            >About
+            <img
+              draggable="false"
+              src="../assets/images/img_chevron_down.svg"
+              alt
+              width="12"
+              height="12"
+          /></a>
+          <div class="dropdown-menu">
+            <a href="../index.html#partners" class="dropdown-item">Partners</a>
+            <a
+              href="https://www.canva.com/design/DAGv3a95xHs/KrzkqroFVlqVPa85QIFLgQ/edit?utm_content=DAGv3a95xHs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              class="dropdown-item"
+              target="_blank"
+              >Speakers</a
+            >
+          </div>
+          <a href="#" class="nav-item dropdown-trigger"
+            >Program
+            <img
+              draggable="false"
+              src="../assets/images/img_chevron_down.svg"
+              alt
+              width="12"
+              height="12"
+          /></a>
+          <div class="dropdown-menu">
+            <a href="./schedule.html" class="dropdown-item">Schedule</a>
+            <a href="./breakout.html" class="dropdown-item"
+              >Breakout Sessions</a
+            >
+          </div>
+          <a href="#" class="nav-item dropdown-trigger"
+            >Resources
+            <img
+              draggable="false"
+              src="../assets/images/img_chevron_down.svg"
+              alt
+              width="12"
+              height="12"
+          /></a>
+          <div class="dropdown-menu">
+            <a
+              href="https://drive.google.com/file/d/1LbIRP4wqS7sNB21r9pUJ5ajwte5_RZk2/view"
+              class="dropdown-item"
+              target="_blank"
+              >Brochure/Booklet</a
+            >
+            <a
+              href="https://www.canva.com/design/DAGv0F2yHmY/KEHq3jKnDYRR7BgG7A3Ypw/edit"
+              class="dropdown-item"
+              target="_blank"
+              >Press Kit</a
+            >
+            <a href="#" class="dropdown-item">Past Conferences</a>
+          </div>
+          <a href="../index.html#faqs" class="nav-item">FAQs</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <a href="./watch-live.html" class="nav-item"
+          >Watch Live
+          <img
+            draggable="false"
+            src="../assets/images/img_arrow_down.svg"
+            alt
+            width="16"
+            height="16"
+        /></a>
+        <a
+          href="https://forms.gle/1hxgEcCYngCGh7ZW9"
+          target="_blank"
+          class="btn-register"
+          >Register</a
+        >
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="section hero-section">
+        <div class="hero-left">
+          <h2 class="hero-schedule-title">Watch Live</h2>
+          <p class="hero-schedule-page-tag">
+            <span>Home</span>
+            <span>></span>
+            <span>Watch Live</span>
+          </p>
+        </div>
+
+        <div class="hero-image-box">
+          <img
+            src="../assets/images/video-frame.png"
+            alt=""
+            draggable="false"
+          />
+        </div>
+      </section>
+
+      <div class="section videos-section">
+        <div class="videos-wrapper"></div>
+      </div>
+
+      <!-- Quality Section -->
+      <!-- <section class="section quality-section">
+        <div class="quality-content">
+          <h2 class="quality-title">Quality you can trust. And build on.</h2>
+          <p class="quality-description">
+            You can trust that all of the designs are taking the full advantage
+            of newest Figma's features and that code is written following best
+            practices out there.
+          </p>
+        </div>
+        <img
+          draggable="false"
+          src="../assets/images/img_illustration_rising.png"
+          alt="Rising Illustration"
+          class="quality-image"
+        />
+      </section> -->
+
+      <!-- Impression Section -->
+      <!-- <section class="section impression-section">
+        <div class="impression-content">
+          <h2 class="impression-title">Make the right impression</h2>
+          <p class="impression-description">
+            Launch UI makes it easy to build an unforgetable website that
+            resonates with professional design-centric audiences.
+          </p>
+        </div>
+
+        <div class="impression-demo">
+          <div class="demo-steps">
+            <div class="demo-step active">
+              <img
+                draggable="false"
+                src="../assets/images/img_blocks.svg"
+                alt
+                width="16"
+                height="16"
+              />
+              <div>
+                <h4
+                  style="
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #09090b;
+                    margin-bottom: 4px;
+                  "
+                >
+                  Choose your sections
+                </h4>
+                <p style="font-size: 12px; color: #71717a; line-height: 1.3">
+                  Choose among 100+ components to build a landing page suited to
+                  the needs of your product.
+                </p>
+              </div>
+            </div>
+
+            <div class="demo-step">
+              <img
+                draggable="false"
+                src="../assets/images/img_square_pen_gray_600.svg"
+                alt
+                width="16"
+                height="16"
+              />
+              <div>
+                <h4
+                  style="
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #71717a;
+                    margin-bottom: 4px;
+                  "
+                >
+                  Add your content
+                </h4>
+                <p style="font-size: 12px; color: #71717a; line-height: 1.3">
+                  Fill the blanks with screenshots, videos, and other content
+                  featuring your product.
+                </p>
+              </div>
+            </div>
+
+            <div class="demo-step">
+              <img
+                draggable="false"
+                src="../assets/images/img_vector.svg"
+                alt
+                width="12"
+                height="12"
+              />
+              <div>
+                <h4
+                  style="
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #71717a;
+                    margin-bottom: 4px;
+                  "
+                >
+                  Customize
+                </h4>
+                <p style="font-size: 12px; color: #71717a; line-height: 1.3">
+                  Make design yours in no time by changing the variables that
+                  control colors, typography, and other styles.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="demo-preview">
+            <img
+              draggable="false"
+              src="../assets/images/img_image.png"
+              alt="Demo Preview"
+              class="demo-image"
+            />
+          </div>
+        </div>
+      </section> -->
+
+      <!-- CTA Section -->
+      <section class="section cta-section">
+        <h2 class="cta-title">ADVANCING WORLD MISSIONS CONFERENCE</h2>
+        <p class="cta-description">
+          REACHING THE NATIONS WITH THE LIGHT AWMC, AFRICA 2025
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <!-- <img
+            draggable="false"
+            src="../assets/images/img_fmi_logo_1.png"
+            alt="FMI Logo"
+            class="footer-logo"
+          /> -->
+          <span class="footer-brand-name">AWMC AFRICA</span>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4 class="footer-column-title">About</h4>
+            <div class="footer-column-links">
+              <a href="../index.html#partners" class="footer-link">Partners</a>
+              <a
+                href="https://www.canva.com/design/DAGv3a95xHs/KrzkqroFVlqVPa85QIFLgQ/edit?utm_content=DAGv3a95xHs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                class="footer-link"
+                target="_blank"
+                >Speakers</a
+              >
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-column-title">Program</h4>
+            <div class="footer-column-links">
+              <a href="./schedule.html" class="footer-link">Schedule</a>
+              <a href="./breakout.html" class="footer-link"
+                >Breakout Sessions</a
+              >
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-column-title">Resources</h4>
+            <div class="footer-column-links">
+              <a
+                href="https://drive.google.com/file/d/1LbIRP4wqS7sNB21r9pUJ5ajwte5_RZk2/view"
+                class="footer-link"
+                target="_blank"
+                >Brochure/Booklet</a
+              >
+              <a
+                href="https://www.canva.com/design/DAGv0F2yHmY/KEHq3jKnDYRR7BgG7A3Ypw/edit"
+                class="footer-link"
+                target="_blank"
+                >Press Kit</a
+              >
+              <a href="#" class="footer-link">Past Conferences</a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-column-title">Contact</h4>
+            <div class="footer-column-links">
+              <a href="../index.html#faqs" class="footer-link">FAQs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="footer-copyright"
+          >© 2025 AWMC Africa. All rights reserved.</span
+        >
+      </div>
+    </footer>
+    <!-- Lenis Smooth Scroll -->
+    <script src="../public/js/plugins/lenis.min.js"></script>
+    <!-- JS -->
+    <script src="../public/js/script.js"></script>
+    <script src="../public/js/watch-live.js"></script>
+    <script src="../public/js/schedule-btn-functions.js"></script>
+  </body>
+</html>
