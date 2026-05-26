@@ -195,7 +195,7 @@
 
       <!-- Top Navigation -->
       <div
-        class="absolute top-10 left-12 right-12 z-10 flex justify-between items-center pointer-events-none max-520:top-6 max-520:left-6 max-520:right-6"
+        class="absolute top-6 left-4 right-4 z-10 flex justify-between items-center pointer-events-none max-520:top-6 max-520:left-6 max-520:right-6 md:top-19 md:left-12 md:right-12"
       >
         <img
           src="./assets/images/2026/logo.svg"
@@ -1791,7 +1791,7 @@
     <!-- Premium Fullscreen Glassmorphic Menu Overlay -->
     <div
       id="menu-overlay"
-      class="fixed inset-0 z-50 pointer-events-none flex flex-col justify-center items-center overflow-hidden"
+      class="fixed w-full inset-0 z-50 pointer-events-none flex flex-col justify-center items-center overflow-hidden invisible"
     >
       <!-- Dark blur backdrop -->
       <div
@@ -2252,7 +2252,7 @@
       const toggleMenu = () => {
         isMenuOpen = !isMenuOpen;
         if (isMenuOpen) {
-          menuOverlay.classList.remove("pointer-events-none");
+          menuOverlay.classList.remove("pointer-events-none", "invisible");
           document.body.style.overflow = "hidden"; // Prevent scrolling
 
           gsap.to(menuBackdrop, {
@@ -2277,6 +2277,11 @@
         } else {
           menuOverlay.classList.add("pointer-events-none");
           document.body.style.overflow = ""; // Reset to stylesheet default (overflow-y-auto overflow-x-hidden)
+
+          // Hide overlay after close animation completes
+          gsap.delayedCall(0.8, () => {
+            if (!isMenuOpen) menuOverlay.classList.add("invisible");
+          });
 
           gsap.to(menuCloseBtn, {
             opacity: 0,
