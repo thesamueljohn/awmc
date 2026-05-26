@@ -1,1323 +1,1732 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AWMC Africa - Advancing World Missions Conference</title>
-    <meta name="description" content="Join the Advancing World Missions Conference 2025 in Ibadan, Nigeria. A pivotal event for pastors and mission leaders to reach the nations with the light." />
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "Advancing World Missions Conference 2025 (Africa)",
-      "startDate": "2025-08-13",
-      "endDate": "2025-08-17",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Conference Centre for the Nations",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "4 Parliament Highway, Secretariat",
-          "addressLocality": "Ibadan",
-          "addressCountry": "NG"
-        }
-      },
-      "image": [
-        "https://awmc.netlify.app/images/banner.jpg" 
-      ],
-      "description": "A pivotal event for pastors, mission leaders, and practitioners across Africa.",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://forms.gle/1hxgEcCYngCGh7ZW9",
-        "price": "0",
-        "priceCurrency": "NGN",
-        "availability": "https://schema.org/InStock"
-      },
-      "organizer": {
-        "@type": "Organization",
-        "name": "AWMC",
-        "url": "https://awmc.netlify.app"
-      }
-    }
-    </script>
-    <link rel="stylesheet" href="./assets/styles/style.css" />
-    <!-- Font -->
+    <title>AWMC 2026</title>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/x-icon" href="./public/favicon.ico">
+    <!-- Tailwind CSS v4 CDN Browser Engine -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="tailwindcss">
+      @theme {
+        --font-sans: "Manrope", system-ui, Arial, sans-serif;
+        --font-serif: "Lora", Georgia, serif;
+
+        --breakpoint-max-900: (max-width: 900px);
+        --breakpoint-max-520: (max-width: 520px);
+
+        --animate-float: floatingQuest 8s ease-in-out infinite;
+        --animate-bounce-smooth: smoothBounce 2s infinite ease-in-out;
+        --animate-float-dove: floatDove 6s ease-in-out infinite;
+        --animate-blow-wind: blowWind 25s ease-in-out infinite;
+        --animate-mouse-wheel: mouseScroll 1.8s cubic-bezier(0.25, 1, 0.5, 1)
+          infinite;
+        --animate-scroll-slider: logoScroll 35s linear infinite;
+
+        @keyframes floatingQuest {
+          0%,
+          100% {
+            transform: translate(-50%, -53%) translateY(0) rotate(0deg);
+          }
+          50% {
+            transform: translate(-50%, -47%) translateY(-8px) rotate(1deg);
+          }
+        }
+        @keyframes smoothBounce {
+          0%,
+          100% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(8px);
+          }
+        }
+        @keyframes floatDove {
+          0%,
+          100% {
+            transform: translateY(0) rotate(0deg) scale(1);
+          }
+          50% {
+            transform: translateY(-12px) rotate(3deg) scale(1.05);
+          }
+        }
+        @keyframes blowWind {
+          0%,
+          100% {
+            transform: translateX(-6%) scale(1);
+          }
+          50% {
+            transform: translateX(6%) scale(1.03);
+          }
+        }
+        @keyframes mouseScroll {
+          0% {
+            transform: translateY(-6px);
+            opacity: 0;
+          }
+          25% {
+            opacity: 1;
+          }
+          65% {
+            transform: translateY(6px);
+            opacity: 0;
+          }
+          100% {
+            transform: translateY(-6px);
+            opacity: 0;
+          }
+        }
+        @keyframes logoScroll {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
+      }
+    </style>
   </head>
-  <body>
-    <!-- Page Reveal Animation -->
-    <!-- <div class="page-reveal-container">
-      <div class="page-revealers">
-        <div class="page-revealer r-1"></div>
-        <div class="page-revealer r-2"></div>
-      </div>
-    </div>
-    <div class="page-reveal-images">
-      <div class="page-reveal-img">
-        <img src="./assets/images/reveal/1.jpg" alt="" />
-      </div>
-      <div class="page-reveal-img">
-        <img src="./assets/images/reveal/2.jpg" alt="" />
-      </div>
-      <div class="page-reveal-img">
-        <img src="./assets/images/reveal/3.jpg" alt="" />
-      </div>
-      <div class="page-reveal-img">
-        <img src="./assets/images/reveal/4.jpg" alt="" />
-      </div>
-      <div class="page-reveal-img">
-        <img src="./assets/images/reveal/5.jpg" alt="" />
-      </div>
-      <div class="page-reveal-img main-page-reveal-img">
-        <img src="./assets/images/reveal/6.jpg" alt="" />
-      </div>
-      <div class="page-reveal-img main-page-reveal-img">
-        <img src="./assets/images/reveal/7.jpg" alt="" />
-      </div>
-      <div class="page-reveal-img main-page-reveal-img">
-        <img src="./assets/images/reveal/8.jpg" alt="" />
-      </div>
-    </div>
-    <div class="reveal-row">
-      <div class="reveal-col">
-        <div class="reveal-line">
-          <p>Gallery</p>
-        </div>
-      </div>
-      <div class="reveal-col">
-        <h2>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab,
-          repellat!
-        </h2>
-      </div>
-    </div>
-    <div class="reveal-row">
-      <div class="reveal-col"></div>
-      <div class="reveal-col"></div>
-    </div> -->
-    <!-- Header -->
-    <header class="header">
-      <div class="header-left">
-        <img
-          draggable="false"
-          src="./assets/images/img_fmi_logo_1.png"
-          alt="FMI Logo"
-          class="logo"
-        />
-        <nav class="nav-menu">
-          <a href="./index.html" class="nav-item">Home</a>
-          <a href="#" class="nav-item dropdown-trigger" id="nav-item-about"
-            >About
-            <img
-              draggable="false"
-              src="./assets/images/img_chevron_down.svg"
-              alt
-              width="12"
-              height="12"
-          /></a>
-          <div class="dropdown-menu" id="dropdown-about">
-            <a href="./index.html#partners" class="dropdown-item">Partners</a>
-            <a
-              href="https://www.canva.com/design/DAGv3a95xHs/KrzkqroFVlqVPa85QIFLgQ/edit?utm_content=DAGv3a95xHs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-              class="dropdown-item"
-              target="_blank"
-              >Speakers</a
-            >
-          </div>
-          <a href="#" class="nav-item dropdown-trigger" id="nav-item-program"
-            >Program
-            <img
-              draggable="false"
-              src="./assets/images/img_chevron_down.svg"
-              alt
-              width="12"
-              height="12"
-          /></a>
-          <div class="dropdown-menu" id="dropdown-program">
-            <a href="./pages/schedule.html" class="dropdown-item">Schedule</a>
-            <a href="./pages/breakout.html" class="dropdown-item"
-              >Breakout Sessions</a
-            >
-          </div>
-          <a href="#" class="nav-item dropdown-trigger" id="nav-item-resources"
-            >Resources
-            <img
-              draggable="false"
-              src="./assets/images/img_chevron_down.svg"
-              alt
-              width="12"
-              height="12"
-          /></a>
-          <div class="dropdown-menu" id="dropdown-resources">
-            <a
-              href="https://drive.google.com/file/d/1LbIRP4wqS7sNB21r9pUJ5ajwte5_RZk2/view"
-              class="dropdown-item"
-              target="_blank"
-              >Brochure/Booklet</a
-            >
-            <a
-              href="https://www.canva.com/design/DAGv0F2yHmY/KEHq3jKnDYRR7BgG7A3Ypw/edit"
-              class="dropdown-item"
-              target="_blank"
-              >Press Kit</a
-            >
-            <!-- <a href="#" class="dropdown-item">Past Conferences</a> -->
-          </div>
-          <a href="./index.html#faqs" class="nav-item">FAQs</a>
-        </nav>
-      </div>
-      <div class="header-right">
-        <a href="./pages/watch-live.html" class="nav-item"
-          >Watch Live
-          <img
-            draggable="false"
-            src="./assets/images/img_arrow_down.svg"
-            alt
-            width="16"
-            height="16"
-        /></a>
-        <a
-          href="https://forms.gle/1hxgEcCYngCGh7ZW9"
-          target="_blank"
-          class="btn-register"
-          >Register</a
+  <body
+    class="m-0 font-sans bg-slate-50 text-slate-900 overflow-y-auto overflow-x-hidden"
+  >
+    <!-- Section 1: Hero Container -->
+    <div class="relative w-full h-screen overflow-hidden hero-container">
+      <!-- Background Video Grid -->
+      <header class="w-full h-full grid grid-cols-2 auto-rows-fr">
+        <div
+          class="video-cell group relative w-full h-full block overflow-hidden cursor-pointer"
         >
-
-        <div class="hamburger-menu" id="hamburger-menu">
-          <div class="hamburger-line"></div>
-          <div class="hamburger-line"></div>
-          <div class="hamburger-line"></div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Mobile Menu Overlay -->
-    <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
-
-    <!-- Mobile Menu -->
-    <div class="mobile-menu" id="mobile-menu">
-      <div class="mobile-menu-header">
-        <img
-          draggable="false"
-          src="./assets/images/img_fmi_logo_1.png"
-          alt="FMI Logo"
-          class="mobile-menu-logo"
-        />
-        <span class="mobile-menu-title">AWMC AFRICA</span>
-      </div>
-
-      <nav class="mobile-nav-menu">
-        <div class="mobile-nav-item">
-          <a href="./index.html" class="mobile-nav-link">Home</a>
-        </div>
-
-        <div class="mobile-nav-item">
-          <a
-            href="#"
-            class="mobile-nav-link has-dropdown"
-            data-dropdown="about"
-          >
-            About
-            <img
-              draggable="false"
-              src="./assets/images/img_chevron_down.svg"
-              alt
-              width="12"
-              height="12"
-              class="mobile-dropdown-icon"
-            />
-          </a>
-          <div class="mobile-dropdown-menu">
-            <a href="./index.html#partners" class="mobile-dropdown-item"
-              >Partners</a
-            >
-            <a
-              href="https://www.canva.com/design/DAGv3a95xHs/KrzkqroFVlqVPa85QIFLgQ/edit?utm_content=DAGv3a95xHs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-              class="mobile-dropdown-item"
-              target="_blank"
-              >Speakers</a
-            >
-          </div>
-        </div>
-
-        <div class="mobile-nav-item">
-          <a
-            href="#"
-            class="mobile-nav-link has-dropdown"
-            data-dropdown="program"
-          >
-            Program
-            <img
-              draggable="false"
-              src="./assets/images/img_chevron_down.svg"
-              alt
-              width="12"
-              height="12"
-              class="mobile-dropdown-icon"
-            />
-          </a>
-          <div class="mobile-dropdown-menu">
-            <a href="./pages/schedule.html" class="mobile-dropdown-item"
-              >Schedule</a
-            >
-            <a href="./pages/breakout.html" class="mobile-dropdown-item"
-              >Breakout Sessions</a
-            >
-          </div>
-        </div>
-
-        <div class="mobile-nav-item">
-          <a
-            href="#"
-            class="mobile-nav-link has-dropdown"
-            data-dropdown="resources"
-          >
-            Resources
-            <img
-              draggable="false"
-              src="./assets/images/img_chevron_down.svg"
-              alt
-              width="12"
-              height="12"
-              class="mobile-dropdown-icon"
-            />
-          </a>
-          <div class="mobile-dropdown-menu">
-            <a
-              href="https://drive.google.com/file/d/1LbIRP4wqS7sNB21r9pUJ5ajwte5_RZk2/view"
-              class="mobile-dropdown-item"
-              target="_blank"
-              >Brochure/Booklet</a
-            >
-            <a
-              href="https://www.canva.com/design/DAGv0F2yHmY/KEHq3jKnDYRR7BgG7A3Ypw/edit"
-              class="mobile-dropdown-item"
-              target="_blank"
-              >Press Kit</a
-            >
-            <!-- <a href="#" class="mobile-dropdown-item">Past Conferences</a> -->
-          </div>
-        </div>
-
-        <div class="mobile-nav-item">
-          <a href="./index.html#faqs" class="mobile-nav-link">FAQs</a>
-        </div>
-      </nav>
-
-      <div class="mobile-menu-actions">
-        <a href="./pages/watch-live.html" class="mobile-watch-live">
-          Watch Live
-          <img
-            draggable="false"
-            src="./assets/images/img_arrow_down.svg"
-            alt
-            width="16"
-            height="16"
-          />
-        </a>
-        <a
-          href="https://forms.gle/1hxgEcCYngCGh7ZW9"
-          target="_blank"
-          class="mobile-register-btn"
-          >Register</a
-        >
-      </div>
-    </div>
-
-    <header class="header-space">
-      <div class="header-left">
-        <img
-          draggable="false"
-          src="./assets/images/img_fmi_logo_1.png"
-          alt="FMI Logo"
-          class="logo"
-          style="position: relative !important"
-        />
-        <nav class="nav-menu">
-          <a href="./index.html" class="nav-item">Home</a>
-          <a href="#" class="nav-item dropdown-trigger"
-            >About
-            <img
-              draggable="false"
-              src="./assets/images/img_chevron_down.svg"
-              alt
-              width="12"
-              height="12"
-          /></a>
-          <div class="dropdown-menu">
-            <a href="./index.html#partners" class="dropdown-item">Partners</a>
-            <a
-              href="https://www.canva.com/design/DAGv3a95xHs/KrzkqroFVlqVPa85QIFLgQ/edit?utm_content=DAGv3a95xHs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-              class="dropdown-item"
-              target="_blank"
-              >Speakers</a
-            >
-          </div>
-          <a href="#" class="nav-item dropdown-trigger"
-            >Program
-            <img
-              draggable="false"
-              src="./assets/images/img_chevron_down.svg"
-              alt
-              width="12"
-              height="12"
-          /></a>
-          <div class="dropdown-menu">
-            <a href="./pages/schedule.html" class="dropdown-item">Schedule</a>
-            <a href="./pages/breakout.html" class="dropdown-item"
-              >Breakout Sessions</a
-            >
-          </div>
-          <a href="#" class="nav-item dropdown-trigger"
-            >Resources
-            <img
-              draggable="false"
-              src="./assets/images/img_chevron_down.svg"
-              alt
-              width="12"
-              height="12"
-          /></a>
-          <div class="dropdown-menu">
-            <a
-              href="https://drive.google.com/file/d/1LbIRP4wqS7sNB21r9pUJ5ajwte5_RZk2/view"
-              class="dropdown-item"
-              target="_blank"
-              >Brochure/Booklet</a
-            >
-            <a
-              href="https://www.canva.com/design/DAGv0F2yHmY/KEHq3jKnDYRR7BgG7A3Ypw/edit"
-              class="dropdown-item"
-              target="_blank"
-              >Press Kit</a
-            >
-            <!-- <a href="#" class="dropdown-item">Past Conferences</a> -->
-          </div>
-          <a href="./index.html#faqs" class="nav-item">FAQs</a>
-        </nav>
-      </div>
-      <div class="header-right">
-        <a href="./pages/watch-live.html" class="nav-item"
-          >Watch Live
-          <img
-            draggable="false"
-            src="./assets/images/img_arrow_down.svg"
-            alt
-            width="16"
-            height="16"
-        /></a>
-        <a
-          href="https://forms.gle/1hxgEcCYngCGh7ZW9"
-          target="_blank"
-          class="btn-register"
-          >Register</a
-        >
-      </div>
-    </header>
-
-    <!-- Main Content -->
-    <main>
-      <!-- Hero Section -->
-      <section class="section hero">
-        <div class="hero-content">
-          <div class="conference-badge">
-            <span class="badge-text"
-              >Advancing World Missions Conference, Africa</span
-            >
-            <a
-              href="https://forms.gle/1hxgEcCYngCGh7ZW9"
-              target="_blank"
-              class="badge-register"
-              ><span>Register</span>
-              <img
-                draggable="false"
-                src="./assets/images/img_arrow_right.svg"
-                alt
-                width="24"
-                height="22"
-            /></a>
-          </div>
-
-          <h1 class="hero-title">“Reaching the Nations with the Light”</h1>
-
-          <div class="hero-details">
-            <p class="hero-description">
-              Join a powerful gathering to equip and ignite your passion for
-              global missions through keynotes, workshops, and strategic
-              connections
-            </p>
-            <div class="hero-cards">
-              <div class="date-card">
-                <span class="card-label">Date</span>
-                <div class="card-content">
-                  <div
-                    style="
-                      font-size: 27px;
-                      line-height: 20px;
-                      margin-bottom: 0.4rem;
-                    "
-                  >
-                    AUGUST
-                  </div>
-                  <div style="font-size: 19px; line-height: 20px">
-                    13-17th, 2025
-                  </div>
-                </div>
-              </div>
-
-              <div class="venue-card">
-                <span class="card-label">Venue</span>
-                <div
-                  class="card-content"
-                  style="font-size: 15px; line-height: 16px"
-                >
-                  Conference Centre for the Nations, 4 Parliament Highway,
-                  Beside INEC Office, Secretariat, Ibadan, Nigeria
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="hero-buttons">
-            <a
-              href="https://forms.gle/1hxgEcCYngCGh7ZW9"
-              target="_blank"
-              class="btn-primary"
-              >Register</a
-            >
-            <a href="./pages/watch-live.html" class="btn-secondary"
-              >Watch Live</a
-            >
-          </div>
-        </div>
-
-        <!-- Video Section -->
-        <div class="video-section">
           <video
             src="./assets/videos/AWMC.mp4"
-            id="awmc-video"
-            poster="./assets/images/video-frame.png"
+            poster="./assets/images/2026/hero-img/1.jpg"
+            muted
+            loop
+            playsinline
+            class="w-full h-[calc(100vh/3)] object-cover block bg-black filter grayscale-[35%] brightness-[75%] transition-[transform,filter] duration-[1200ms] [transition-timing-function:cubic-bezier(0.16,1,0.3,1)] group-hover:scale-108 group-hover:grayscale-0 group-hover:brightness-100"
           ></video>
-          <div class="video-overlay" id="video-overlay">
-            <div class="play-button" id="play-button">
+        </div>
+        <div
+          class="video-cell group relative w-full h-full block overflow-hidden cursor-pointer"
+        >
+          <video
+            src="./assets/videos/AWMC.mp4"
+            poster="./assets/images/2026/hero-img/2.jpg"
+            muted
+            loop
+            playsinline
+            class="w-full h-[calc(100vh/3)] object-cover block bg-black filter grayscale-[35%] brightness-[75%] transition-[transform,filter] duration-[1200ms] [transition-timing-function:cubic-bezier(0.16,1,0.3,1)] group-hover:scale-108 group-hover:grayscale-0 group-hover:brightness-100"
+          ></video>
+        </div>
+        <div
+          class="video-cell group relative w-full h-full block overflow-hidden cursor-pointer"
+        >
+          <video
+            src="./assets/videos/AWMC.mp4"
+            poster="./assets/images/2026/hero-img/3.jpg"
+            muted
+            loop
+            playsinline
+            class="w-full h-[calc(100vh/3)] object-cover block bg-black filter grayscale-[35%] brightness-[75%] transition-[transform,filter] duration-[1200ms] [transition-timing-function:cubic-bezier(0.16,1,0.3,1)] group-hover:scale-108 group-hover:grayscale-0 group-hover:brightness-100"
+          ></video>
+        </div>
+        <div
+          class="video-cell group relative w-full h-full block overflow-hidden cursor-pointer"
+        >
+          <video
+            src="./assets/videos/AWMC.mp4"
+            poster="./assets/images/2026/hero-img/4.jpg"
+            muted
+            loop
+            playsinline
+            class="w-full h-[calc(100vh/3)] object-cover block bg-black filter grayscale-[35%] brightness-[75%] transition-[transform,filter] duration-[1200ms] [transition-timing-function:cubic-bezier(0.16,1,0.3,1)] group-hover:scale-108 group-hover:grayscale-0 group-hover:brightness-100"
+          ></video>
+        </div>
+        <div
+          class="video-cell group relative w-full h-full block overflow-hidden cursor-pointer"
+        >
+          <video
+            src="./assets/videos/AWMC.mp4"
+            poster="./assets/images/2026/hero-img/5.jpg"
+            muted
+            loop
+            playsinline
+            class="w-full h-[calc(100vh/3)] object-cover block bg-black filter grayscale-[35%] brightness-[75%] transition-[transform,filter] duration-[1200ms] [transition-timing-function:cubic-bezier(0.16,1,0.3,1)] group-hover:scale-108 group-hover:grayscale-0 group-hover:brightness-100"
+          ></video>
+        </div>
+        <div
+          class="video-cell group relative w-full h-full block overflow-hidden cursor-pointer"
+        >
+          <video
+            src="./assets/videos/AWMC.mp4"
+            poster="./assets/images/2026/hero-img/6.jpg"
+            muted
+            loop
+            playsinline
+            class="w-full h-[calc(100vh/3)] object-cover block bg-black filter grayscale-[35%] brightness-[75%] transition-[transform,filter] duration-[1200ms] [transition-timing-function:cubic-bezier(0.16,1,0.3,1)] group-hover:scale-108 group-hover:grayscale-0 group-hover:brightness-100"
+          ></video>
+        </div>
+      </header>
+
+      <!-- Overlay Tint (Dark Mode Gradient) -->
+      <div
+        class="hero-overlay absolute inset-0 bg-[radial-gradient(circle,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0.75)_100%)] z-[2] pointer-events-none transition-all duration-500 ease-in-out"
+      ></div>
+
+      <!-- Top Navigation -->
+      <div
+        class="absolute top-10 left-12 right-12 z-10 flex justify-between items-center pointer-events-none max-520:top-6 max-520:left-6 max-520:right-6"
+      >
+        <img
+          src="./assets/images/2026/logo.svg"
+          class="top-logo pointer-events-auto h-[52px] max-520:h-10 w-auto block transition-transform duration-300 ease-in-out hover:scale-105"
+          alt="AWMC Logo"
+        />
+        <button
+          class="menu-btn pointer-events-auto bg-white/5 border border-white/10 text-white font-sans font-semibold text-[0.8rem] tracking-[0.2em] flex items-center gap-3.5 cursor-pointer py-2.5 px-5 rounded-[24px] transition-all duration-300 ease-in-out hover:bg-white/15 hover:border-white/30 hover:-translate-y-[1px] active:translate-y-0 shadow-[0_4px_12px_rgba(0,0,0,0.1)]"
+          aria-label="Open Menu"
+        >
+          <span>MENU</span>
+          <div class="flex flex-col gap-[4.5px] w-[16px]">
+            <span
+              class="block h-[1.5px] bg-white w-full rounded-[1px] transition-transform duration-300"
+            ></span>
+            <span
+              class="block h-[1.5px] bg-white w-full rounded-[1px] transition-transform duration-300"
+            ></span>
+          </div>
+        </button>
+      </div>
+
+      <!-- Central Content (Question Mark, Glow Spotlight, and Texts) -->
+      <div
+        class="center-content absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[3] flex flex-col items-center text-center w-[90%] max-w-[640px] pointer-events-none"
+      >
+        <!-- Spotlight Backdrop Glow -->
+        <div
+          class="absolute w-[500px] h-[500px] max-520:w-[320px] max-520:h-[320px] bg-orange-600/20 rounded-full blur-[80px] z-[-2] pointer-events-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        ></div>
+
+        <!-- Floating Question Mark -->
+        <div
+          class="absolute top-[52%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[320px] max-520:max-w-[270px] opacity-[0.25] z-[-1] [filter:drop-shadow(0_0_30px_rgba(255,117,31,0.2))] animate-float"
+        >
+          <img
+            src="./assets/images/2026/question.svg"
+            class="w-full h-auto block"
+            alt=""
+          />
+        </div>
+
+        <!-- Anchored Top Tag -->
+        <div class="flex items-center gap-3 mb-4 select-none">
+          <span class="h-[1px] w-6 bg-white/50 block"></span>
+          <span
+            class="text-white font-sans font-bold tracking-[0.25em] text-[0.8rem] max-520:text-[0.7rem] uppercase"
+          >
+            DID YOU KNOW THAT
+          </span>
+          <span class="h-[1px] w-6 bg-white/50 block"></span>
+        </div>
+
+        <!-- Headline with gradient and shadow -->
+        <h1
+          class="font-sans font-black text-[5.5rem] max-520:text-[3.2rem] leading-[1.0] tracking-[-0.03em] m-0 uppercase flex flex-col items-center select-none"
+        >
+          <span
+            class="bg-gradient-to-r from-orange-500 via-amber-400 to-white bg-clip-text text-transparent drop-shadow-[0_4px_12px_rgba(234,88,12,0.15)]"
+            >3.5 BILLION</span
+          >
+          <span class="text-white mt-1">PEOPLE</span>
+        </h1>
+
+        <!-- Elegant Serif Subtitle -->
+        <p
+          class="font-serif italic text-slate-200 text-[1.8rem] max-520:text-[1.4rem] mt-6 max-w-md leading-relaxed select-none"
+        >
+          haven't for once heard <br class="hidden sm:inline" />
+          about
+          <span class="text-orange-400 font-sans font-bold not-italic"
+            >JESUS</span
+          >?
+        </p>
+      </div>
+
+      <!-- Scroll Indicator (Interactive Mouse Widget) -->
+      <div
+        class="scroll-indicator absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center pointer-events-auto cursor-pointer group"
+      >
+        <div
+          class="w-[26px] h-[42px] border-2 border-white/20 rounded-full flex justify-center p-1.5 transition-colors duration-300 group-hover:border-white/50"
+        >
+          <div
+            class="w-1.5 h-3 bg-orange-500 rounded-full animate-mouse-wheel"
+          ></div>
+        </div>
+        <span
+          class="font-sans text-[0.7rem] font-semibold tracking-[0.3em] text-white/40 uppercase mt-3 transition-colors duration-300 group-hover:text-white/70 select-none"
+        >
+          SCROLL DOWN
+        </span>
+      </div>
+
+      <!-- Bottom Follow Corner -->
+      <div
+        class="absolute bottom-10 left-12 right-12 z-10 flex justify-end items-end pointer-events-none max-520:bottom-6 max-520:left-6 max-520:right-6"
+      >
+        <div
+          class="bottom-right pointer-events-auto flex flex-col items-end gap-3.5"
+        >
+          <span
+            class="font-sans text-[0.75rem] max-520:text-[0.7rem] font-semibold tracking-[0.2em] text-white opacity-70"
+          >
+            FOLLOW US
+          </span>
+          <div class="flex gap-6 max-520:gap-[1.2rem] items-center">
+            <a
+              href="#"
+              aria-label="YouTube"
+              class="flex items-center justify-center opacity-75 hover:opacity-100 hover:-translate-y-[2px] transition-all duration-200 ease-in-out"
+            >
               <img
-                draggable="false"
-                src="./assets/images/img_uil_play.svg"
-                alt="Play"
-                width="94"
-                height="94"
-                id="play-svg"
+                src="./assets/images/2026/youtube.svg"
+                class="h-[18px] max-520:h-[16px] w-auto"
+                alt="YouTube"
               />
+            </a>
+            <a
+              href="#"
+              aria-label="Instagram"
+              class="flex items-center justify-center opacity-75 hover:opacity-100 hover:-translate-y-[2px] transition-all duration-200 ease-in-out"
+            >
               <img
-                draggable="false"
-                src="./assets/images/img_uil_pause.svg"
-                alt="Pause"
-                width="94"
-                height="94"
-                id="pause-svg"
-                style="display: none"
+                src="./assets/images/2026/instagram.svg"
+                class="h-[18px] max-520:h-[16px] w-auto"
+                alt="Instagram"
               />
+            </a>
+            <a
+              href="#"
+              aria-label="X"
+              class="flex items-center justify-center opacity-75 hover:opacity-100 hover:-translate-y-[2px] transition-all duration-200 ease-in-out"
+            >
+              <img
+                src="./assets/images/2026/x.svg"
+                class="h-[18px] max-520:h-[16px] w-auto"
+                alt="X"
+              />
+            </a>
+            <a
+              href="#"
+              aria-label="Facebook"
+              class="flex items-center justify-center opacity-75 hover:opacity-100 hover:-translate-y-[2px] transition-all duration-200 ease-in-out"
+            >
+              <img
+                src="./assets/images/2026/facebook.svg"
+                class="h-[18px] max-520:h-[16px] w-auto"
+                alt="Facebook"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2: The Staggering Scale (Scroll-Triggered Live Counter) -->
+    <section
+      id="section-stats"
+      class="min-h-screen bg-slate-50 flex flex-col md:flex-row relative"
+    >
+      <!-- Left Side: Pinned Counter -->
+      <div
+        class="w-full md:w-1/2 h-[50vh] md:h-screen flex flex-col justify-center items-center p-8 sticky top-0 bg-slate-50 z-10 border-b md:border-b-0 md:border-r border-slate-900/10 overflow-hidden"
+      >
+        <!-- Rotating Blackhole Silhouette (Metaphor for spiritual void) -->
+        <div
+          class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.06] z-0"
+        >
+          <img
+            src="./assets/images/2026/blackhole.svg"
+            class="w-[120%] h-auto animate-[spin_100s_linear_infinite]"
+            alt=""
+          />
+        </div>
+        <span
+          class="relative z-10 text-orange-500 font-sans font-semibold tracking-[0.25em] text-[0.8rem] mb-4 uppercase"
+        >
+          THE UNREACHED POPULATION
+        </span>
+        <h2
+          id="population-counter"
+          class="relative z-10 text-slate-900 font-sans font-black text-[3rem] lg:text-[4.5rem] tracking-tight leading-none text-center tabular-nums"
+        >
+          0
+        </h2>
+        <p
+          class="relative z-10 text-slate-600 font-sans text-sm mt-4 tracking-wide text-center"
+        >
+          increasing by 2.5 people every second
+        </p>
+      </div>
+
+      <!-- Right Side: Sticky/Stacked Narrative -->
+      <div
+        class="w-full md:w-1/2 flex items-center justify-center py-12 md:py-20 px-8 lg:px-16 relative z-2 min-h-[40vh] md:min-h-screen"
+      >
+        <div
+          class="relative w-full max-w-lg flex flex-col md:block gap-12 md:gap-0 min-h-[250px]"
+        >
+          <!-- Slide 1 -->
+          <div
+            class="stat-slide md:absolute md:inset-0 flex flex-col justify-center max-w-lg"
+          >
+            <!-- <span class="text-slate-400 font-mono text-sm block mb-4"
+              >01 // THE SCALE</span
+            > -->
+            <h3
+              class="text-slate-900 font-sans font-bold text-2xl lg:text-3xl leading-relaxed"
+            >
+              Out of 8 billion people on Earth,
+              <span class="text-orange-600">over 3.5 billion</span> have never
+              once heard the name of Jesus.
+            </h3>
+          </div>
+
+          <!-- Slide 2 -->
+          <div
+            class="stat-slide md:absolute md:inset-0 flex flex-col justify-center max-w-lg"
+          >
+            <!-- <span class="text-slate-400 font-mono text-sm block mb-4"
+              >02 // THE MOMENT</span
+            > -->
+            <h3
+              class="text-slate-900 font-sans font-bold text-2xl lg:text-3xl leading-relaxed"
+            >
+              Every single second,
+              <span class="text-orange-600">2.5 people</span> pass away... many
+              of them without ever hearing the Gospel.
+            </h3>
+          </div>
+
+          <!-- Slide 3 -->
+          <div
+            class="stat-slide md:absolute md:inset-0 flex flex-col justify-center max-w-lg"
+          >
+            <!-- <span class="text-slate-400 font-mono text-sm block mb-4"
+              >03 // THE DAILY COUNT</span
+            > -->
+            <h3
+              class="text-slate-900 font-sans font-bold text-2xl lg:text-3xl leading-relaxed"
+            >
+              That is <span class="text-orange-600">150 people</span> every
+              minute. 9,000 every hour. 216,000 every single day.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: The 10/40 Window (Geographic Focus) -->
+    <section
+      id="section-globe"
+      class="min-h-screen bg-white flex flex-col items-center justify-center py-24 px-8 relative overflow-hidden"
+    >
+      <!-- Cultural Silhouette (Low Opacity Backdrop) -->
+      <div
+        class="absolute bottom-4 left-6 w-[20%] max-w-[150px] opacity-20 pointer-events-none z-0"
+      >
+        <img
+          src="./assets/images/2026/selling-women.svg"
+          class="w-full h-auto"
+          alt=""
+        />
+      </div>
+
+      <!-- Missionary Silhouette (Walks across on scroll) -->
+      <div
+        class="missionary-walk absolute bottom-6 right-[15%] w-[12%] opacity-20 max-w-[90px] pointer-events-none z-0"
+      >
+        <img
+          src="./assets/images/2026/person-walking-1.svg"
+          class="w-full h-auto"
+          alt=""
+        />
+      </div>
+
+      <div
+        class="max-w-6xl w-full flex flex-col md:flex-row items-center justify-between gap-12 z-10"
+      >
+        <!-- Left column text -->
+        <div
+          class="globe-left-panel w-full md:w-[30%] flex flex-col gap-12 text-left md:text-right"
+        >
+          <div class="flex flex-col gap-3">
+            <span
+              class="text-orange-500 font-semibold tracking-wider text-xs uppercase"
+              >THE REGION</span
+            >
+            <h4 class="text-slate-900 font-bold text-xl">The 10/40 Window</h4>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              A geographic band stretching from North Africa to East Asia,
+              between 10 and 40 degrees north latitude.
+            </p>
+          </div>
+          <div class="flex flex-col gap-3">
+            <span
+              class="text-orange-500 font-semibold tracking-wider text-xs uppercase"
+              >THE PEOPLES</span
+            >
+            <h4 class="text-slate-900 font-bold text-xl">The Major Blocs</h4>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Home to the vast majority of the world's Muslims, Hindus, and
+              Buddhists, residing in thousands of distinct ethnic groups.
+            </p>
+          </div>
+        </div>
+
+        <!-- Center Globe Illustration -->
+        <div
+          class="w-full md:w-[40%] flex items-center justify-center relative aspect-square max-w-[360px] md:max-w-none"
+        >
+          <img
+            src="./assets/images/2026/globe.svg"
+            class="globe-img w-[85%] h-auto object-contain opacity-85 animate-[spin_80s_linear_infinite]"
+            alt="Global Map"
+          />
+          <!-- Red Glowing Window Highlight -->
+          <div
+            class="globe-highlight absolute top-[35%] left-[25%] w-[45%] h-[25%] rounded-full bg-red-500/15 border border-red-500/30 blur-xl animate-pulse"
+          ></div>
+        </div>
+
+        <!-- Right column text -->
+        <div
+          class="globe-right-panel w-full md:w-[30%] flex flex-col gap-12 text-left"
+        >
+          <div class="flex flex-col gap-3">
+            <span
+              class="text-orange-500 font-semibold tracking-wider text-xs uppercase"
+              >THE INEQUALITY</span
+            >
+            <h4 class="text-slate-900 font-bold text-xl">Resource Imbalance</h4>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Over 90% of all unreached peoples live here, yet they receive less
+              than 1% of global missionary resources and funding.
+            </p>
+          </div>
+          <div class="flex flex-col gap-3">
+            <span
+              class="text-orange-500 font-semibold tracking-wider text-xs uppercase"
+              >THE REALITY</span
+            >
+            <h4 class="text-slate-900 font-bold text-xl">Absolute Isolation</h4>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Millions are born and die without ever meeting a single Christian,
+              having a Bible in their language, or seeing a church.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Faces & Stories (Collage & Reflection) -->
+    <section
+      id="section-faces"
+      class="min-h-screen bg-slate-50 flex flex-col justify-center relative overflow-hidden py-24"
+    >
+      <!-- Parallax Horizontal Image Strip -->
+      <div
+        class="w-full overflow-hidden absolute inset-0 flex items-center opacity-60 select-none pointer-events-none"
+      >
+        <div
+          class="face-ribbon flex gap-6 w-[240%] h-full transform -translate-x-[10%]"
+        >
+          <img
+            src="./assets/images/2026/hero-img/1.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+          <img
+            src="./assets/images/2026/hero-img/2.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+          <img
+            src="./assets/images/2026/hero-img/3.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+          <img
+            src="./assets/images/2026/hero-img/4.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+          <img
+            src="./assets/images/2026/hero-img/5.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+          <img
+            src="./assets/images/2026/hero-img/6.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+          <img
+            src="./assets/images/2026/hero-img/7.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+          <img
+            src="./assets/images/2026/hero-img/8.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+          <img
+            src="./assets/images/2026/hero-img/1.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+          <img
+            src="./assets/images/2026/hero-img/2.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+          <img
+            src="./assets/images/2026/hero-img/3.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+          <img
+            src="./assets/images/2026/hero-img/4.jpg"
+            class="w-[200px] h-full object-cover"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- Centered Glassmorphic card & Portrait Cards -->
+      <div
+        class="max-w-6xl mx-auto px-8 z-10 text-center flex flex-col items-center gap-16"
+      >
+        <!-- Scripture Card -->
+        <div
+          id="commission-card"
+          class="max-w-3xl bg-white border border-slate-900/10 rounded-2xl p-10 md:p-16 flex flex-col items-center shadow-[0_20px_50px_rgba(15,23,42,0.06)]"
+        >
+          <span
+            class="text-orange-500 font-semibold tracking-[0.25em] text-xs uppercase mb-6"
+            >A MISSIONARY COMMISSION</span
+          >
+          <h3
+            class="font-serif text-slate-900 text-xl md:text-3xl leading-relaxed mb-8 opacity-95"
+          >
+            "How, then, can they call on the one they have not believed in? And
+            how can they believe in the one of whom they have not heard? And how
+            can they hear without someone preaching to them?"
+          </h3>
+          <span class="text-slate-600 font-mono text-sm tracking-wider"
+            >ROMANS 10:14</span
+          >
+          <div class="w-16 h-[1px] bg-slate-900/10 my-8"></div>
+          <p class="text-slate-700 font-sans text-md max-w-lg leading-relaxed">
+            They are not numbers. They are people. Each one created and loved by
+            God but completely cut off from hope.
+          </p>
+        </div>
+
+        <!-- Three Portrait Cards of Unreached Individuals -->
+        <div
+          class="unreached-cards-container grid grid-cols-1 md:grid-cols-3 gap-8 w-full"
+        >
+          <!-- Card 1 -->
+          <div
+            class="unreached-card group flex flex-col items-center hover:shadow-[0_25px_50px_rgba(234,88,12,0.1)] transition-all duration-500 cursor-pointer"
+          >
+            <div
+              class="bg-white w-32 h-32 rounded-full overflow-hidden mb-6 border-2 border-white group-hover:border-orange-500 transition-colors duration-500"
+            >
+              <img
+                src="./assets/images/2026/man-1.png"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                alt="Hassan"
+              />
+            </div>
+         
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="unreached-card group flex flex-col items-center hover:shadow-[0_25px_50px_rgba(234,88,12,0.1)] transition-all duration-500 cursor-pointer"
+          >
+            <div
+              class="bg-white w-32 h-32 rounded-full overflow-hidden mb-6 border-2 border-white group-hover:border-orange-500 transition-colors duration-500"
+            >
+              <img
+                src="./assets/images/2026/man-2.png"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                alt="Aarav"
+              />
+            </div>
+          
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="unreached-card group flex flex-col items-center hover:shadow-[0_25px_50px_rgba(234,88,12,0.1)] transition-all duration-500 cursor-pointer"
+          >
+            <div
+              class="bg-white w-32 h-32 rounded-full overflow-hidden mb-6 border-2 border-white group-hover:border-orange-500 transition-colors duration-500"
+            >
+              <img
+                src="./assets/images/2026/man-3.png"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                alt="Chen"
+              />
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Section 7: The Call to Action (AWMC 2026) -->
+    <section
+      id="section-cta"
+      class="min-h-screen flex flex-col justify-between items-center py-24 px-8 relative overflow-hidden"
+    >
+      <!-- Holy Spirit Wind Overlay (Subtle horizontal drifting) -->
+      <div
+        class="absolute inset-0 z-0 pointer-events-none opacity-[0.03] flex items-center justify-center"
+      >
+        <img
+          src="./assets/images/2026/wind.svg"
+          class="w-[150%] h-auto max-w-none animate-blow-wind"
+          alt=""
+        />
+      </div>
+
+      <!-- Content Wrapper -->
+      <div
+        class="flex-grow w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 z-10 py-12"
+      >
+        <!-- Left: Text and Event Info -->
+        <div
+          class="w-full lg:w-[55%] flex flex-col items-center lg:items-start text-center lg:text-left relative"
+        >
+          <!-- Floating Dove of the Spirit -->
+          <div
+            class="absolute -top-16 right-4 w-[64px] h-auto opacity-25 pointer-events-none animate-float-dove hidden lg:block"
+          >
+            <img
+              src="./assets/images/2026/dove.svg"
+              class="w-full h-auto"
+              alt=""
+            />
+          </div>
+
+          <span
+            class="text-orange-500 font-sans font-semibold tracking-[0.25em] text-xs uppercase mb-4"
+          >
+            ADVANCING WORLD MISSIONS CONFERENCE, 2026
+          </span>
+          <h2
+            class="text-slate-900 font-sans font-black text-4xl md:text-5xl lg:text-6xl uppercase tracking-tight leading-none mb-4"
+          >
+            "Extending Missions Frontiers in His Power"
+          </h2>
+
+          <!-- Event Details Card -->
+          <div
+            class="w-full bg-white/70 border border-slate-900/10 rounded-2xl p-6 flex flex-col sm:flex-row justify-around items-center gap-6 mb-8 shadow-[0_10px_25px_rgba(15,23,42,0.04)] text-left"
+          >
+            <div
+              class="flex flex-col items-center sm:items-start text-center sm:text-left gap-1"
+            >
+              <span
+                class="text-orange-500 font-mono text-md uppercase tracking-wider"
+                >DATE</span
+              >
+              <span class="text-slate-900 font-semibold text-lg"
+                >12 - 16 AUGUST, 2026</span
+              >
+            </div>
+            <div class="hidden sm:block w-[1px] h-10 bg-slate-900/15"></div>
+            <div
+              class="flex flex-col items-center sm:items-start text-center sm:text-left gap-1 max-w-xs"
+            >
+              <span
+                class="text-orange-500 font-mono text-md uppercase tracking-wider"
+                >VENUE</span
+              >
+              <span class="text-slate-700 font-medium text-lg">
+                Conference Centre for the Nations, 4 Parliament Highway,
+                Secretariat, Ibadan, Nigeria
+              </span>
+            </div>
+          </div>
+
+          <p
+            class="text-slate-700 text-sm md:text-base max-w-xl leading-relaxed mb-8"
+          >
+            We are gathering to change the statistics. To align, mobilize, and
+            commission the body of Christ to bring the Gospel to the final
+            frontiers of the earth.
+          </p>
+
+          <div
+            class="flex flex-col sm:flex-row gap-4 items-center justify-center lg:justify-start w-full"
+          >
+            <a
+              href="#"
+              class="bg-orange-600 hover:bg-orange-500 text-white font-semibold tracking-wider uppercase text-xs py-3.5 px-6 rounded-full shadow-[0_0_20px_rgba(234,88,12,0.2)] transition-all duration-300 hover:scale-105 active:scale-100"
+            >
+              Register Now
+            </a>
+            <a
+              href="#"
+              class="border border-slate-900/20 hover:bg-slate-900/5 text-slate-900 font-semibold tracking-wider uppercase text-xs py-3.5 px-6 rounded-full transition-all duration-300 hover:scale-105 active:scale-100"
+            >
+              Watch the Trailer
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: 3D Angle Flyer and Holy Spirit Power Graphic -->
+        <div
+          class="w-full lg:w-[40%] flex items-center justify-center relative aspect-square max-w-[380px] lg:max-w-none"
+        >
+          <!-- Holy Spirit Power Graphic (fire.svg) in Background -->
+          <div
+            class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.08] z-0 blur-[2px]"
+          >
+            <img
+              src="./assets/images/2026/fire.svg"
+              class="w-[120%] h-auto animate-[pulse_6s_ease-in-out_infinite]"
+              alt=""
+            />
+          </div>
+
+          <!-- 3D Flyer Card -->
+          <div
+            class="flyer-card-container relative z-10 w-[85%] max-w-[320px] group cursor-pointer"
+            style="perspective: 1000px"
+          >
+            <!-- Backing Glow Aura -->
+            <div
+              class="absolute inset-0 -m-4 bg-orange-600/10 rounded-[30px] blur-2xl group-hover:bg-orange-600/20 group-hover:blur-3xl transition-all duration-700 opacity-60 pointer-events-none"
+            ></div>
+
+            <div
+              class="flyer-card w-full h-full overflow-hidden shadow-[0_30px_60px_rgba(15,23,42,0.15)] border border-slate-900/10 bg-white transition-all duration-500 ease-out group-hover:shadow-[0_40px_80px_rgba(234,88,12,0.25)] relative"
+              style="
+                transform-style: preserve-3d;
+                transform: rotateY(-10deg) rotateX(10deg);
+              "
+            >
+              <img
+                src="./assets/images/2026/awmc-flyer-2026.jpg"
+                class="w-full h-full object-cover block pointer-events-none"
+                alt="AWMC 2026 Flyer"
+              />
+              <!-- Reflection Shine Overlay -->
+              <div
+                class="flyer-shine absolute inset-0 pointer-events-none transition-opacity duration-300 opacity-0 group-hover:opacity-100 z-10"
+              ></div>
+              <!-- Highlight Overlay -->
+              <div
+                class="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/10 to-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+              ></div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <!-- About Section -->
-      <section class="section about-section">
-        <h2 class="about-title">
-          About the Advancing World Missions Conference (AWMC)
+      
+    </section>
+    <!-- Section 5: Speakers Showcase -->
+    <section id="section-speakers" class="min-h-screen bg-white py-24 px-8 relative overflow-hidden flex flex-col justify-center items-center">
+      <div class="max-w-6xl w-full mx-auto z-10 flex flex-col items-center">
+        <span class="text-orange-500 font-sans font-semibold tracking-[0.25em] text-xs uppercase mb-4">AWMC 2026 VOICES</span>
+        <h2 class="text-slate-900 font-sans font-black text-3xl md:text-5xl uppercase tracking-tight leading-none mb-4 text-center">
+          Conference Speakers
         </h2>
-        <p class="about-description">
-          The Advancing World Missions Conference is a pivotal event for
-          pastors, mission leaders, and practitioners across Africa. Join us for
-          inspiring keynotes, workshops, and networking opportunities designed
-          to empower your mission journey. The Advancing World Missions
-          Conference is a pivotal event for pastors, mission leaders, and
-          practitioners across Africa. Join us for inspiring keynotes,
-          workshops, and networking opportunities designed to empower your
-          mission journey.The Advancing World Missions Conference is a pivotal
-          event for pastors, mission leaders, and practitioners across Africa.
-          Join us for inspiring keynotes, workshops, and networking
-          opportunities designed to empower your mission journey.
+        <p class="text-slate-600 text-sm md:text-base max-w-xl text-center leading-relaxed mb-16 select-none">
+          Learn from seasoned missions leaders, pioneers, and mobilizers dedicated to extending missions frontiers in His power.
         </p>
 
-        <div class="features-grid">
-          <div class="feature-card hover-lift">
-            <div class="feature-header">
-              <h3 class="feature-title">Keynotes Sessions</h3>
-              <p class="feature-description">
-                Experience powerful messages from renowned mission leaders,
-                igniting your passion and vision for global evangelism. These
-                sessions will inspire and challenge you to deepen your
-                commitment to reaching the nations.
-              </p>
+        <!-- Speakers Grid -->
+        <div class="speakers-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
+          <!-- Speaker 1 -->
+          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
+            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
+              <img src="./assets/images/speakers/1.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Apostle I.D Lawon" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-            <div class="feature-visual">
-              <img
-                draggable="false"
-                src="./assets/images/key-note.jpg"
-                style="object-position: 55% 24%"
-              />
+            <div class="p-6 flex flex-col flex-grow justify-between">
+              <div>
+                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Apostle I.D Lawon</h3>
+                <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                  Founding President & General Missions Director, Fullstature Missions International
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="feature-card hover-lift">
-            <div class="feature-header">
-              <h3 class="feature-title">Breakout Sessions</h3>
-              <p class="feature-description">
-                Dive deeper into specific mission topics, from cross-cultural
-                communication to church planting strategies. Choose from a
-                variety of focused discussions designed to equip you with
-                practical insights.
-              </p>
+          <!-- Speaker 2 -->
+          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
+            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
+              <img src="./assets/images/speakers/2.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Rev. Reuben E. Ezemadu" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-            <div class="feature-visual">
-              <img
-                draggable="false"
-                src="./assets/images/break-out.jpg"
-                style="object-fit: cover; height: 140%"
-              />
+            <div class="p-6 flex flex-col flex-grow justify-between">
+              <div>
+                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Rev. Reuben E. Ezemadu</h3>
+                <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                  International Director, Christian Missionary Foundation Inc.
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="feature-card hover-lift">
-            <div class="feature-header">
-              <h3 class="feature-title">Training Workshops</h3>
-              <p class="feature-description">
-                Develop essential skills for effective mission work through
-                interactive, hands-on sessions. Learn practical tools and
-                methods to enhance your ministry impact and overcome common
-                challenges.
-              </p>
+          <!-- Speaker 3 -->
+          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
+            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
+              <img src="./assets/images/speakers/3.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="David Ogunshola" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-            <div class="feature-visual">
-              <img
-                draggable="false"
-                src="./assets/images/workshops.jpg"
-                style="
-                  object-position: 55% 24%;
-                  object-fit: cover;
-                  height: 100%;
-                "
-              />
+            <div class="p-6 flex flex-col flex-grow justify-between">
+              <div>
+                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">David Ogunshola</h3>
+                <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                  Innovation Catalyst & Missions Mobilizer
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="feature-card hover-lift">
-            <div class="feature-header">
-              <h3 class="feature-title">Networking Opportunities</h3>
-              <p class="feature-description">
-                Connect with fellow pastors, mission leaders, and practitioners
-                from across Africa and beyond. Forge strategic partnerships and
-                share experiences to strengthen the collective effort of global
-                missions.
-              </p>
+          <!-- Speaker 4 -->
+          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
+            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
+              <img src="./assets/images/speakers/4.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Pastor Gboyega Olusola" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-            <div class="feature-visual">
-              <img
-                draggable="false"
-                src="./assets/images/networking.jpg  "
-                style="
-                  object-position: 55% 24%;
-                  object-fit: cover;
-                  height: 130%;
-                "
-              />
+            <div class="p-6 flex flex-col flex-grow justify-between">
+              <div>
+                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Pastor Gboyega Olusola</h3>
+                <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                  President & Fullstature Director for Member Care
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <!-- Speakers Section -->
-      <section class="section speakers-section">
-        <h2 class="speakers-title">Speakers</h2>
-        <div class="speakers-grid">
-          <div class="speaker-feature fade-in">
-            <div class="speaker-feature-image">
-              <div class="speaker-image-overlay"></div>
-              <img
-                draggable="false"
-                src="./assets/images/speakers/1.png"
-                alt="Apostle I.D Lawon"
-                class="speaker-feature-img"
-                loading="lazy"
-              />
+          <!-- Speaker 5 -->
+          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
+            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
+              <img src="./assets/images/speakers/5.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Dr. Kunle Ogunkolati" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-            <div class="speaker-feature-header">
-              <h3 class="speaker-feature-title">Apostle I.D Lawon</h3>
+            <div class="p-6 flex flex-col flex-grow justify-between">
+              <div>
+                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Dr. Kunle Ogunkolati</h3>
+                <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                  Vice Chairman, Centre for Biblical Christianity in Africa, Nigeria
+                </p>
+              </div>
             </div>
-            <p class="speaker-feature-text">
-              Founding President & General Missions Director, Fullstature
-              Missions International
-            </p>
           </div>
 
-          <div class="speaker-feature fade-in">
-            <div class="speaker-feature-image">
-              <div class="speaker-image-overlay"></div>
-              <img
-                draggable="false"
-                src="./assets/images/speakers/2.png"
-                alt="Rev. Reuben E. Ezemadu"
-                class="speaker-feature-img"
-                loading="lazy"
-              />
+          <!-- Speaker 6 -->
+          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
+            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
+              <img src="./assets/images/speakers/6.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Rev. Ezekiel A. Adegbite" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-            <div class="speaker-feature-header">
-              <h3 class="speaker-feature-title">Rev. Reuben E. Ezemadu</h3>
+            <div class="p-6 flex flex-col flex-grow justify-between">
+              <div>
+                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Rev. Ezekiel A. Adegbite</h3>
+                <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                  President & Senior Pastor, Grace Abound Global Mission
+                </p>
+              </div>
             </div>
-            <p class="speaker-feature-text">
-              International Director, Christian Missionary Foundation Inc.
-            </p>
           </div>
 
-          <div class="speaker-feature fade-in">
-            <div class="speaker-feature-image">
-              <div class="speaker-image-overlay"></div>
-              <img
-                draggable="false"
-                src="./assets/images/speakers/3.png"
-                alt="David Ogunshola"
-                class="speaker-feature-img"
-                loading="lazy"
-              />
+          <!-- Speaker 7 -->
+          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
+            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
+              <img src="./assets/images/speakers/7.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Rev. (Dr.) Isaac Apata" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-            <div class="speaker-feature-header">
-              <h3 class="speaker-feature-title">David Ogunshola</h3>
+            <div class="p-6 flex flex-col flex-grow justify-between">
+              <div>
+                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Rev. (Dr.) Isaac Apata</h3>
+                <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                  International Director, The Soul Refreshers Foundation Inc.
+                </p>
+              </div>
             </div>
-            <p class="speaker-feature-text">
-              Innovation Catalyst & Missions Mobilizer
-            </p>
           </div>
 
-          <div class="speaker-feature fade-in">
-            <div class="speaker-feature-image">
-              <div class="speaker-image-overlay"></div>
-              <img
-                draggable="false"
-                src="./assets/images/speakers/4.png"
-                alt="Pastor Gboyega Olusola"
-                class="speaker-feature-img"
-                loading="lazy"
-              />
+          <!-- Speaker 8 -->
+          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
+            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
+              <img src="./assets/images/speakers/8.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Pastor Chris Sola Mene" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-            <div class="speaker-feature-header">
-              <h3 class="speaker-feature-title">Pastor Gboyega Olusola</h3>
-            </div>
-            <p class="speaker-feature-text">
-              President & Fullstature Director for Member Care
-            </p>
-          </div>
-
-          <div class="speaker-feature fade-in">
-            <div class="speaker-feature-image">
-              <div class="speaker-image-overlay"></div>
-              <img
-                draggable="false"
-                src="./assets/images/speakers/5.png"
-                alt="Dr. Kunle Ogunkolati"
-                class="speaker-feature-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="speaker-feature-header">
-              <h3 class="speaker-feature-title">Dr. Kunle Ogunkolati</h3>
-            </div>
-            <p class="speaker-feature-text">
-              Vice Chairman, Centre for Biblical Christianity in Africa, Nigeria
-            </p>
-          </div>
-
-          <div class="speaker-feature fade-in">
-            <div class="speaker-feature-image">
-              <div class="speaker-image-overlay"></div>
-              <img
-                draggable="false"
-                src="./assets/images/speakers/6.png"
-                alt="Rev. Ezekiel A. Adegbite"
-                class="speaker-feature-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="speaker-feature-header">
-              <h3 class="speaker-feature-title">Rev. Ezekiel A. Adegbite</h3>
-            </div>
-            <p class="speaker-feature-text">
-              President & Senior Pastor, Grace Abound Global Mission
-            </p>
-          </div>
-
-          <div class="speaker-feature fade-in">
-            <div class="speaker-feature-image">
-              <div class="speaker-image-overlay"></div>
-              <img
-                draggable="false"
-                src="./assets/images/speakers/7.png"
-                alt="Rev. (Dr.) Isaac Apata"
-                class="speaker-feature-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="speaker-feature-header">
-              <h3 class="speaker-feature-title">Rev. (Dr.) Isaac Apata</h3>
-            </div>
-            <p class="speaker-feature-text">
-              International Director, The Soul Refreshers Foundation Inc.
-            </p>
-          </div>
-
-          <div class="speaker-feature fade-in">
-            <div class="speaker-feature-image">
-              <div class="speaker-image-overlay"></div>
-              <img
-                draggable="false"
-                src="./assets/images/speakers/8.png"
-                alt="Pastor Chris Sola Mene"
-                class="speaker-feature-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="speaker-feature-header">
-              <h3 class="speaker-feature-title">Pastor Chris Sola Mene</h3>
-            </div>
-            <p class="speaker-feature-text" id="partners">
-              Senior Pastor, Dayspring Christian Centre
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Partners Section -->
-      <section class="section partners-section">
-        <div class="partners-content">
-          <h2 class="partners-title">Partners</h2>
-        </div>
-
-        <div class="relative w-full max-w-8xl mx-auto overflow-hidden slider">
-          <div
-            class="absolute inset-y-0 left-0 w-1/4 z-10 bg-gradient-to-r from-white to-transparent"
-          ></div>
-
-          <div
-            class="absolute inset-y-0 right-0 w-1/4 z-10 bg-gradient-to-l from-white to-transparent"
-          ></div>
-
-          <div
-            class="flex animate-[scroll_40s_linear_infinite] w-[300%] slide-track"
-          >
-            <!-- First set of logos -->
-
-            <div class="flex flex-shrink-0 items-center justify-around w-1/2">
-              <img
-                src="./assets/images/partners-slider/0-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 0"
-              />
-              <img
-                src="./assets/images/partners-slider/1-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 1"
-              />
-              <img
-                src="./assets/images/partners-slider/2-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 2"
-              />
-              <img
-                src="./assets/images/partners-slider/3-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 3"
-              />
-              <img
-                src="./assets/images/partners-slider/4-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 4"
-              />
-
-              <img
-                src="./assets/images/partners-slider/6-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 6"
-              />
-              <img
-                src="./assets/images/partners-slider/7-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 7"
-              />
-
-              <img
-                src="./assets/images/partners-slider/9-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 9"
-              />
-              <img
-                src="./assets/images/partners-slider/10-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 10"
-              />
-              <img
-                src="./assets/images/partners-slider/11-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 11"
-              />
-              <img
-                src="./assets/images/partners-slider/12-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 12"
-              />
-              <img
-                src="./assets/images/partners-slider/13-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 13"
-              />
-              <img
-                src="./assets/images/partners-slider/14-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 14"
-              />
-              <img
-                src="./assets/images/partners-slider/15-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 15"
-              />
-
-              <img
-                src="./assets/images/partners-slider/17-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 17"
-              />
-
-              <img
-                src="./assets/images/partners-slider/19-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 19"
-              />
-              <img
-                src="./assets/images/partners-slider/20-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 20"
-              />
-              <img
-                src="./assets/images/partners-slider/21-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 21"
-              />
-              <img
-                src="./assets/images/partners-slider/22-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 22"
-              />
-
-              <img
-                src="./assets/images/partners-slider/24-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 24"
-              />
-            </div>
-
-            <!-- Second set of logos (duplicate) -->
-
-            <div class="flex flex-shrink-0 items-center justify-around w-1/2">
-              <img
-                src="./assets/images/partners-slider/0-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 0"
-              />
-              <img
-                src="./assets/images/partners-slider/1-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 1"
-              />
-              <img
-                src="./assets/images/partners-slider/2-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 2"
-              />
-              <img
-                src="./assets/images/partners-slider/3-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 3"
-              />
-              <img
-                src="./assets/images/partners-slider/4-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 4"
-              />
-
-              <img
-                src="./assets/images/partners-slider/6-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 6"
-              />
-              <img
-                src="./assets/images/partners-slider/7-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 7"
-              />
-
-              <img
-                src="./assets/images/partners-slider/9-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 9"
-              />
-              <img
-                src="./assets/images/partners-slider/10-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 10"
-              />
-              <img
-                src="./assets/images/partners-slider/11-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 11"
-              />
-              <img
-                src="./assets/images/partners-slider/12-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 12"
-              />
-              <img
-                src="./assets/images/partners-slider/13-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 13"
-              />
-              <img
-                src="./assets/images/partners-slider/14-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 14"
-              />
-              <img
-                src="./assets/images/partners-slider/15-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 15"
-              />
-
-              <img
-                src="./assets/images/partners-slider/17-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 17"
-              />
-
-              <img
-                src="./assets/images/partners-slider/19-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 19"
-              />
-              <img
-                src="./assets/images/partners-slider/20-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 20"
-              />
-              <img
-                src="./assets/images/partners-slider/21-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 21"
-              />
-              <img
-                src="./assets/images/partners-slider/22-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 22"
-              />
-
-              <img
-                src="./assets/images/partners-slider/24-1-300x300.png"
-                class="h-[75px] w-auto px-4 py-2 opacity-70 hover:opacity-100 transition-opacity duration-300"
-                alt="Logo 24"
-              />
+            <div class="p-6 flex flex-col flex-grow justify-between">
+              <div>
+                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Pastor Chris Sola Mene</h3>
+                <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                  Senior Pastor, Dayspring Christian Centre
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- FAQ Section -->
-      <section class="section faq-section" id="faqs">
-        <h2 class="faq-title">Questions and Answers</h2>
-        <div class="faq-list">
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleFAQ(this)">
-              <span>What do I stand to gain from the conference?</span>
-              <img
-                draggable="false"
-                src="./assets/images/img_arrow_down.svg"
-                alt="Arrow"
-                class="faq-icon"
-              />
-            </div>
-            <div class="faq-answer">
-              <p>
-                At this conference, you'll have the opportunity to connect with
-                like-minded individuals who are passionate about advancing
-                global missions, discover innovative approaches to spreading the
-                gospel, learn about effective mission strategies, and gain
-                practical tools to overcome challenges in the field. From
-                engaging workshops and breakout sessions to thought-provoking
-                panel discussions and exhibitions, our lineup of esteemed
-                speakers will share their experiences, insights, and strategies
-                for making a lasting impact in global missions. Whether you're a
-                seasoned missionary, a church leader, or simply curious about
-                missions, this conference is for you.
-              </p>
-            </div>
-          </div>
+    <!-- Section 6: Frequently Asked Questions -->
+    <section id="section-faqs" class="min-h-screen bg-slate-50 py-24 px-8 relative overflow-hidden flex flex-col justify-center items-center">
+      <div class="max-w-4xl w-full mx-auto z-10 flex flex-col items-center">
+        <span class="text-orange-500 font-sans font-semibold tracking-[0.25em] text-xs uppercase mb-4">CONFERENCE FAQ</span>
+        <h2 class="text-slate-900 font-sans font-black text-3xl md:text-5xl uppercase tracking-tight leading-none mb-4 text-center">
+          Questions & Answers
+        </h2>
+        <p class="text-slate-600 text-sm md:text-base max-w-xl text-center leading-relaxed mb-16 select-none">
+          Find clear answers to help you prepare, register, and plan for your attendance at AWMC 2026.
+        </p>
 
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleFAQ(this)">
-              <span>When and where is the conference being held?</span>
-              <img
-                draggable="false"
-                src="./assets/images/img_arrow_down.svg"
-                alt="Arrow"
-                class="faq-icon"
-              />
+        <!-- FAQs Accordion List -->
+        <div class="faq-list w-full flex flex-col gap-4">
+          <!-- FAQ 1 -->
+          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
+            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
+              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+                What do I stand to gain from the conference?
+              </span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              </svg>
             </div>
-            <div class="faq-answer">
-              <p>
-                The conference will be held from August 13-17, 2025, at the
-                Conference Center for the Nations, 4 Parliament Highway,
-                Opposite Oyo state House of Assembly, By Federal INEC,
-                Secretariat, Ibadan.
-              </p>
+            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
+              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
+                At this conference, you'll have the opportunity to connect with like-minded individuals who are passionate about advancing global missions, discover innovative approaches to spreading the gospel, learn about effective mission strategies, and gain practical tools to overcome challenges in the field. From engaging workshops and breakout sessions to thought-provoking panel discussions and exhibitions, our lineup of esteemed speakers will share their experiences, insights, and strategies for making a lasting impact in global missions. Whether you're a seasoned missionary, a church leader, or simply curious about missions, this conference is for you.
+              </div>
             </div>
           </div>
 
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleFAQ(this)">
-              <span>How do I register for the conference?</span>
-              <img
-                draggable="false"
-                src="./assets/images/img_arrow_down.svg"
-                alt="Arrow"
-                class="faq-icon"
-              />
+          <!-- FAQ 2 -->
+          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
+            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
+              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+                When and where is the conference being held?
+              </span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              </svg>
             </div>
-            <div class="faq-answer">
-              <p>
-                Although there are arrangements for physical registration at the
-                conference venue, every intending participant is expected to
-                register online via this link:
-                <a href="https://forms.gle/1hxgEcCYngCGh7ZW9" target="_blank"
-                  >Register</a
-                >
-                This is to better help us plan and prepare for conference
-                attendees.
-              </p>
+            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
+              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
+                The conference will be held from August 12-16, 2026, at the Conference Center for the Nations, 4 Parliament Highway, Opposite Oyo state House of Assembly, By Federal INEC, Secretariat, Ibadan, Nigeria.
+              </div>
             </div>
           </div>
 
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleFAQ(this)">
-              <span>Can I participate virtually?</span>
-              <img
-                draggable="false"
-                src="./assets/images/img_arrow_down.svg"
-                alt="Arrow"
-                class="faq-icon"
-              />
+          <!-- FAQ 3 -->
+          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
+            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
+              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+                How do I register for the conference?
+              </span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              </svg>
             </div>
-            <div class="faq-answer">
-              <p>
-                Yes, you can participate online. The event will be broadcast
-                online via YouTube, Facebook and other social media platforms.
-                You can also download conference materials from the website to
-                follow along.
-              </p>
+            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
+              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
+                Although there are arrangements for physical registration at the conference venue, every intending participant is expected to register online via the registration form. This is to better help us plan and prepare for conference attendees.
+              </div>
             </div>
           </div>
 
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleFAQ(this)">
-              <span>What arrangements for physical attendees?</span>
-              <img
-                draggable="false"
-                src="./assets/images/img_arrow_down.svg"
-                alt="Arrow"
-                class="faq-icon"
-              />
+          <!-- FAQ 4 -->
+          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
+            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
+              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+                Can I participate virtually?
+              </span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              </svg>
             </div>
-            <div class="faq-answer">
-              <p>
-                Adequate transport arrangement has been put in place for safe
-                and easy commuting of all conference participants. Food vendors
-                will also be around to sell to you at reasonable prices. General
-                lodging arrangements have been put in place. Should you however
-                decide to make personal lodging arrangements, see Hotel Booking
-                Information for more.
-              </p>
+            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
+              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
+                Yes, you can participate online. The event will be broadcast live via YouTube, Facebook, and other social media platforms. You can also download conference materials from the website to follow along.
+              </div>
             </div>
           </div>
 
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleFAQ(this)">
-              <span>Is there any arrangement for children and teens?</span>
-              <img
-                draggable="false"
-                src="./assets/images/img_arrow_down.svg"
-                alt="Arrow"
-                class="faq-icon"
-              />
+          <!-- FAQ 5 -->
+          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
+            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
+              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+                What are the lodging and lodging arrangements for physical attendees?
+              </span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              </svg>
             </div>
-            <div class="faq-answer">
-              <p>
-                Yes, there is. Our History Makers Church will be holding
-                'Children in Missions', a special event for kids and teenagers
-                during the course of the conference. Adequate security
-                arrangements have been made to ensure the safety of everyone at
-                the event.
-              </p>
+            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
+              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
+                Adequate transport arrangement has been put in place for safe and easy commuting of all conference participants. Food vendors will also be around to sell meals at reasonable prices. General lodging arrangements have been put in place. Should you decide to make personal lodging arrangements, see Hotel Booking Information for more.
+              </div>
             </div>
           </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleFAQ(this)">
-              <span
-                >I would like to give to this initiative. How do I go about
-                it?</span
-              >
-              <img
-                draggable="false"
-                src="./assets/images/img_arrow_down.svg"
-                alt="Arrow"
-                class="faq-icon"
-              />
+
+          <!-- FAQ 6 -->
+          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
+            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
+              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+                Is there any arrangement for children and teens?
+              </span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              </svg>
             </div>
-            <div class="faq-answer">
-              <p>
-                AWMC is non-profit status. In order to make the conference
-                available and affordable to every member of the family of
-                Christ, no registration fee is required. It is financed in four
-                (4) ways: Donations from sponsoring bodies, Display space for
-                missions exhibitions, Offerings given at the conference, and
-                Adverts supporting missions. We operate a modest budget and our
-                accounts are presented each year. You are also invited to share
-                in the financial support of AWMC by making donations to our bank
-                account: FMI - Advancing World Missions Conference (1013901151,
-                Zenith Bank PLC Bodija Ibadan).
-              </p>
+            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
+              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
+                Yes, there is. Our History Makers Church will be holding 'Children in Missions', a special event for kids and teenagers during the course of the conference. Adequate security arrangements have been made to ensure the safety of everyone at the event.
+              </div>
             </div>
           </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleFAQ(this)">
-              <span
-                >How can I get more information or ask further questions?</span
-              >
-              <img
-                draggable="false"
-                src="./assets/images/img_arrow_down.svg"
-                alt="Arrow"
-                class="faq-icon"
-              />
+
+          <!-- FAQ 7 -->
+          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
+            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
+              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+                I would like to give to this initiative. How do I go about it?
+              </span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              </svg>
             </div>
-            <div class="faq-answer">
-              <p>
-                Contact us at awmcconference@gmail.com or call +2348033542957,
-                +2348023339638, +2348035793900.
-              </p>
+            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
+              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
+                AWMC has a non-profit status. In order to make the conference available and affordable to every member of the family of Christ, no registration fee is required. It is financed through: Donations from sponsoring bodies, display spaces for missions exhibitions, offerings given at the conference, and adverts supporting missions. You are invited to share in the financial support of AWMC by making donations to our bank account: FMI - Advancing World Missions Conference (1013901151, Zenith Bank PLC Bodija Ibadan).
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
+            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
+              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+                How can I get more information or ask further questions?
+              </span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
+              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
+                Contact us at awmcconference@gmail.com or call +2348033542957, +2348023339638, or +2348035793900.
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- CTA Section -->
-      <!-- <section class="section cta-section">
-        <h2 class="cta-title">Start building</h2>
-        <div class="cta-as">
-          <a href="#" class="btn-cta-primary">Get started</a>
-          <a href="#" class="btn-cta-secondary">Github</a>
+    <!-- Section 6.5: Our Partners -->
+    <section id="section-partners" class="bg-white py-16 px-8 relative overflow-hidden flex flex-col justify-center items-center border-t border-b border-slate-900/5">
+      <div class="max-w-6xl w-full mx-auto z-10 flex flex-col items-center">
+        <span class="text-orange-500 font-sans font-semibold tracking-[0.25em] text-xs uppercase mb-8 select-none">OUR PARTNERS</span>
+        
+        <!-- Infinite Loop Slider Track -->
+        <div class="relative w-full max-w-5xl overflow-hidden py-4 select-none">
+          <!-- Vignette Gradient Shadows -->
+          <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
+          <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
+
+          <!-- Slider Inner Track -->
+          <div class="flex animate-scroll-slider w-max">
+            <!-- Set 1 -->
+            <div class="flex flex-shrink-0 items-center gap-16 pr-16">
+              <img src="./assets/images/partners-slider/0-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 0" />
+              <img src="./assets/images/partners-slider/1-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 1" />
+              <img src="./assets/images/partners-slider/2-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 2" />
+              <img src="./assets/images/partners-slider/3-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 3" />
+              <img src="./assets/images/partners-slider/4-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 4" />
+              <img src="./assets/images/partners-slider/6-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 6" />
+              <img src="./assets/images/partners-slider/7-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 7" />
+              <img src="./assets/images/partners-slider/9-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 9" />
+              <img src="./assets/images/partners-slider/10-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 10" />
+              <img src="./assets/images/partners-slider/11-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 11" />
+              <img src="./assets/images/partners-slider/12-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 12" />
+              <img src="./assets/images/partners-slider/13-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 13" />
+              <img src="./assets/images/partners-slider/14-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 14" />
+              <img src="./assets/images/partners-slider/15-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 15" />
+              <img src="./assets/images/partners-slider/17-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 17" />
+              <img src="./assets/images/partners-slider/19-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 19" />
+              <img src="./assets/images/partners-slider/20-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 20" />
+              <img src="./assets/images/partners-slider/21-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 21" />
+              <img src="./assets/images/partners-slider/22-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 22" />
+              <img src="./assets/images/partners-slider/24-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 24" />
+            </div>
+
+            <!-- Set 2 (Duplicate for Seamless Loop) -->
+            <div class="flex flex-shrink-0 items-center gap-16 pr-16">
+              <img src="./assets/images/partners-slider/0-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 0" />
+              <img src="./assets/images/partners-slider/1-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 1" />
+              <img src="./assets/images/partners-slider/2-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 2" />
+              <img src="./assets/images/partners-slider/3-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 3" />
+              <img src="./assets/images/partners-slider/4-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 4" />
+              <img src="./assets/images/partners-slider/6-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 6" />
+              <img src="./assets/images/partners-slider/7-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 7" />
+              <img src="./assets/images/partners-slider/9-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 9" />
+              <img src="./assets/images/partners-slider/10-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 10" />
+              <img src="./assets/images/partners-slider/11-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 11" />
+              <img src="./assets/images/partners-slider/12-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 12" />
+              <img src="./assets/images/partners-slider/13-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 13" />
+              <img src="./assets/images/partners-slider/14-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 14" />
+              <img src="./assets/images/partners-slider/15-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 15" />
+              <img src="./assets/images/partners-slider/17-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 17" />
+              <img src="./assets/images/partners-slider/19-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 19" />
+              <img src="./assets/images/partners-slider/20-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 20" />
+              <img src="./assets/images/partners-slider/21-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 21" />
+              <img src="./assets/images/partners-slider/22-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 22" />
+              <img src="./assets/images/partners-slider/24-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 24" />
+            </div>
+          </div>
         </div>
-      </section> -->
-    </main>
-
+      </div>
+    </section>
     <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-main">
-        <div class="footer-brand">
-          <!-- <img
-            draggable="false"
-            src="./assets/images/img_fmi_logo_1.png"
-            alt="FMI Logo"
-            class="footer-logo"
-          /> -->
-          <span class="footer-brand-name">AWMC AFRICA</span>
+      <footer
+        class="w-full max-w-6xl flex flex-col md:flex-row justify-between items-center gap-6 border-t border-slate-900/10 py-12 mx-auto text-slate-500 text-xs z-10"
+      >
+        <p>&copy; AWMC 2026. All Rights Reserved.</p>
+        <div class="flex gap-8">
+          <a href="#" class="hover:text-slate-950 transition-colors"
+            >Privacy Policy</a
+          >
+          <a href="#" class="hover:text-slate-950 transition-colors"
+            >Terms of Service</a
+          >
+          <a href="#" class="hover:text-slate-950 transition-colors"
+            >Contact Us</a
+          >
         </div>
-
-        <div class="footer-links">
-          <div class="footer-column">
-            <h4 class="footer-column-title">About</h4>
-            <div class="footer-column-links">
-              <a href="./index.html#partners" class="footer-link">Partners</a>
-              <a
-                href="https://www.canva.com/design/DAGv3a95xHs/KrzkqroFVlqVPa85QIFLgQ/edit?utm_content=DAGv3a95xHs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                class="footer-link"
-                target="_blank"
-                >Speakers</a
-              >
-            </div>
-          </div>
-
-          <div class="footer-column">
-            <h4 class="footer-column-title">Program</h4>
-            <div class="footer-column-links">
-              <a href="./pages/schedule.html" class="footer-link">Schedule</a>
-              <a href="./pages/breakout.html" class="footer-link"
-                >Breakout Sessions</a
-              >
-            </div>
-          </div>
-
-          <div class="footer-column">
-            <h4 class="footer-column-title">Resources</h4>
-            <div class="footer-column-links">
-              <a
-                href="https://drive.google.com/file/d/1LbIRP4wqS7sNB21r9pUJ5ajwte5_RZk2/view"
-                class="footer-link"
-                target="_blank"
-                >Brochure/Booklet</a
-              >
-              <a
-                href="https://www.canva.com/design/DAGv0F2yHmY/KEHq3jKnDYRR7BgG7A3Ypw/edit"
-                class="footer-link"
-                target="_blank"
-                >Press Kit</a
-              >
-              <!-- <a href="#" class="footer-link">Past Conferences</a> -->
-            </div>
-          </div>
-
-          <div class="footer-column">
-            <h4 class="footer-column-title">Contact</h4>
-            <div class="footer-column-links">
-              <a href="./index.html#faqs" class="footer-link">FAQs</a>
-            </div>
-          </div>
+        <!-- Social Links from hero bottom -->
+        <div class="flex gap-5 items-center">
+          <a
+            href="#"
+            aria-label="YouTube"
+            class="opacity-60 hover:opacity-100 transition-opacity"
+          >
+            <img
+              src="./assets/images/2026/youtube.svg"
+              class="h-4 w-auto filter invert-[1]"
+              alt="YouTube"
+            />
+          </a>
+          <a
+            href="#"
+            aria-label="Instagram"
+            class="opacity-60 hover:opacity-100 transition-opacity"
+          >
+            <img
+              src="./assets/images/2026/instagram.svg"
+              class="h-4 w-auto filter invert-[1]"
+              alt="Instagram"
+            />
+          </a>
+          <a
+            href="#"
+            aria-label="X"
+            class="opacity-60 hover:opacity-100 transition-opacity"
+          >
+            <img
+              src="./assets/images/2026/x.svg"
+              class="h-4 w-auto filter invert-[1]"
+              alt="X"
+            />
+          </a>
+          <a
+            href="#"
+            aria-label="Facebook"
+            class="opacity-60 hover:opacity-100 transition-opacity"
+          >
+            <img
+              src="./assets/images/2026/facebook.svg"
+              class="h-4 w-auto filter invert-[1]"
+              alt="Facebook"
+            />
+          </a>
         </div>
-      </div>
+      </footer>
 
-      <div class="footer-bottom">
-        <span class="footer-copyright"
-          >© 2025 AWMC Africa. All rights reserved.</span
-        >
-      </div>
-    </footer>
+    
 
-    <!-- Lenis Smooth Scroll -->
-    <script src="./public/js/plugins/lenis.min.js"></script>
+    <!-- Premium Fullscreen Glassmorphic Menu Overlay -->
+    <div id="menu-overlay" class="fixed inset-0 z-50 pointer-events-none flex flex-col justify-center items-center">
+      <!-- Dark blur backdrop -->
+      <div class="menu-backdrop absolute inset-0 bg-slate-950/90 backdrop-blur-xl opacity-0 transition-opacity duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"></div>
+      
+      <!-- Close Button -->
+      <button class="menu-close-btn absolute top-10 right-12 z-10 w-12 h-12 flex items-center justify-center rounded-full bg-white/10 border border-white/20 text-white opacity-0 hover:bg-white/20 hover:scale-110 transition-all duration-300 max-520:top-6 max-520:right-6 pointer-events-auto cursor-pointer">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
 
-    <!-- JS -->
-    <script src="./public/js/script.js"></script>
-    <script src="./public/js/play-btn.js"></script>
+      <!-- Navigation Links -->
+      <nav class="relative z-10 flex flex-col items-center gap-6 md:gap-8 text-center mt-8">
+        <a href="#" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">Home</a>
+        <a href="#section-stats" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">The Stats</a>
+        <a href="#section-globe" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">10/40 Window</a>
+        <a href="#section-faces" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">Stories</a>
+        <a href="#section-speakers" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">Speakers</a>
+        <a href="#section-faqs" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">FAQs</a>
+        <a href="#section-partners" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">Partners</a>
+        
+        <div class="w-16 h-[1px] bg-white/20 my-2 opacity-0 menu-link translate-y-8"></div>
+        
+        <!-- <div class="flex gap-6 menu-link opacity-0 translate-y-8 pointer-events-auto">
+          <a href="./pages/schedule.html" class="text-orange-400 hover:text-white font-sans font-semibold text-sm uppercase tracking-widest transition-colors duration-300">Schedule</a>
+          <a href="./pages/breakout.html" class="text-orange-400 hover:text-white font-sans font-semibold text-sm uppercase tracking-widest transition-colors duration-300">Breakouts</a>
+          <a href="./pages/watch-live.html" class="text-orange-400 hover:text-white font-sans font-semibold text-sm uppercase tracking-widest transition-colors duration-300">Watch Live</a>
+        </div> -->
+      </nav>
+    </div>
 
-    <!-- Tailwind -->
-    <script src="./public/js/plugins/tailwindcss.js"></script>
+    <!-- GSAP Scrollytelling Animation Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script>
+      // 1. Hover-to-preview videos for Section 1 Grid
+      document.querySelectorAll(".video-cell").forEach((cell) => {
+        const video = cell.querySelector("video");
 
-    <!-- GSAP and Animation -->
-    <script src="./public/js/plugins/gsap.min.js"></script>
-    <script src="./public/js/plugins/flip.min.js"></script>
-    <script src="./public/js/plugins/CustomEase.min.js"></script>
-    <script src="./public/js/plugins/split-type.min.js"></script>
+        // Desktop Hover triggers preview playback
+        cell.addEventListener("mouseenter", () => {
+          video.play().catch((err) => {
+            console.debug("Video playback blocked by browser settings:", err);
+          });
+        });
+
+        cell.addEventListener("mouseleave", () => {
+          video.pause();
+        });
+
+        // Mobile touch support: toggling play/pause on touch
+        cell.addEventListener(
+          "touchstart",
+          (e) => {
+            if (video.paused) {
+              document.querySelectorAll("video").forEach((v) => v.pause());
+              video.play().catch(() => {});
+            } else {
+              video.pause();
+            }
+          },
+          { passive: true },
+        );
+      });
+
+      // 2. GSAP Scrollytelling Setup
+      gsap.registerPlugin(ScrollTrigger);
+
+      // Hero overlay fade-to-white on scroll
+      gsap.to(".hero-overlay", {
+        scrollTrigger: {
+          trigger: ".hero-container",
+          start: "top top",
+          end: "bottom top",
+          scrub: true,
+        },
+        backgroundColor: "rgba(248, 250, 252, 0.98)",
+      });
+
+      // Cinematic exit for hero elements on scroll
+      gsap.to(".center-content", {
+        scrollTrigger: {
+          trigger: ".hero-container",
+          start: "top top",
+          end: "bottom top",
+          scrub: true,
+        },
+        yPercent: -30,
+        scale: 0.9,
+        opacity: 0,
+      });
+
+      gsap.to(".scroll-indicator", {
+        scrollTrigger: {
+          trigger: ".hero-container",
+          start: "top top",
+          end: "30% top",
+          scrub: true,
+        },
+        y: 50,
+        opacity: 0,
+      });
+
+      // Grid video separation/scale-down effect on scroll
+      gsap.to(".video-cell video", {
+        scrollTrigger: {
+          trigger: ".hero-container",
+          start: "top top",
+          end: "bottom top",
+          scrub: true,
+        },
+        scale: 0.9,
+        opacity: 0.15,
+        filter: "grayscale(100%)",
+      });
+
+      // Section 2: Pinned Stats Counter & Dynamic Incrementer
+      let counterVal = { val: 0 };
+      let finalVal = 3535572814;
+      let counterEl = document.getElementById("population-counter");
+
+      // Scroll trigger animations with GSAP matchMedia (Responsive layout support)
+      let mm = gsap.matchMedia();
+
+      mm.add("(min-width: 769px)", () => {
+        // Desktop Layout (Sticky Counter, Stacked slides on the right)
+        let statTimeline = gsap.timeline({
+          scrollTrigger: {
+            trigger: "#section-stats",
+            start: "top top",
+            end: "+=180%",
+            pin: true,
+            scrub: true,
+          },
+        });
+
+        statTimeline.to(counterVal, {
+          val: finalVal,
+          duration: 1.5,
+          ease: "power2.out",
+          onUpdate: () => {
+            counterEl.innerText = Math.floor(counterVal.val).toLocaleString();
+          },
+        });
+
+        // Stacked slide transitions sequenced on the pinned scroll timeline
+        let slides = document.querySelectorAll(".stat-slide");
+
+        // Initial state (Slide 1 is visible, others hidden and shifted down)
+        gsap.set(slides[0], { opacity: 1, y: 0 });
+        gsap.set([slides[1], slides[2]], { opacity: 0, y: 50 });
+
+        // Transition from Slide 1 to Slide 2
+        statTimeline.to(
+          slides[0],
+          { opacity: 0, y: -50, duration: 0.8 },
+          "+=0.3",
+        );
+        statTimeline.to(slides[1], { opacity: 1, y: 0, duration: 0.8 }, "<");
+
+        // Transition from Slide 2 to Slide 3
+        statTimeline.to(
+          slides[1],
+          { opacity: 0, y: -50, duration: 0.8 },
+          "+=0.5",
+        );
+        statTimeline.to(slides[2], { opacity: 1, y: 0, duration: 0.8 }, "<");
+
+        // Extended hold at the end of pinning
+        statTimeline.to({}, { duration: 0.5 });
+
+        // Section 3: Slide left text panels from left
+        gsap.from("#section-globe .globe-left-panel .flex", {
+          scrollTrigger: {
+            trigger: "#section-globe",
+            start: "top 80%",
+            end: "top 30%",
+            scrub: true,
+          },
+          x: -80,
+          opacity: 0,
+          stagger: 0.15,
+        });
+
+        // Slide right text panels from right
+        gsap.from("#section-globe .globe-right-panel .flex", {
+          scrollTrigger: {
+            trigger: "#section-globe",
+            start: "top 80%",
+            end: "top 30%",
+            scrub: true,
+          },
+          x: 80,
+          opacity: 0,
+          stagger: 0.15,
+        });
+      });
+
+      mm.add("(max-width: 768px)", () => {
+        // Mobile Layout (Standard scrolling, count up triggers when Section 2 enters viewport)
+        gsap.to(counterVal, {
+          scrollTrigger: {
+            trigger: "#section-stats",
+            start: "top 80%",
+            end: "top 30%",
+            scrub: true,
+          },
+          val: finalVal,
+          ease: "power1.out",
+          onUpdate: () => {
+            counterEl.innerText = Math.floor(counterVal.val).toLocaleString();
+          },
+        });
+
+        // Set narrative slides opacity statically for easier mobile readability
+        document.querySelectorAll(".stat-slide").forEach((slide) => {
+          slide.classList.remove("opacity-30");
+          slide.classList.add("opacity-100");
+        });
+      });
+
+      // Continuous ticking counter (2.5 population increase of unreached per second)
+      setInterval(() => {
+        if (counterVal.val >= finalVal - 100) {
+          finalVal += 2.5;
+          counterEl.innerText = Math.round(finalVal).toLocaleString();
+        }
+      }, 1000);
+
+      // Section 3: Globe Map zoom, spin, and highlight entrance
+      gsap.fromTo(
+        ".globe-img",
+        { scale: 0.6, rotation: -90, opacity: 0.2 },
+        {
+          scrollTrigger: {
+            trigger: "#section-globe",
+            start: "top 85%",
+            end: "top 30%",
+            scrub: true,
+          },
+          scale: 1,
+          rotation: 0,
+          opacity: 0.7,
+        },
+      );
+
+      gsap.from(".globe-highlight", {
+        scrollTrigger: {
+          trigger: "#section-globe",
+          start: "top 70%",
+          end: "top 30%",
+          scrub: true,
+        },
+        scale: 0,
+        opacity: 0,
+      });
+
+      // Section 4: Parallax horizontal face ribbon scroll
+      gsap.fromTo(
+        ".face-ribbon",
+        { xPercent: 10 },
+        {
+          scrollTrigger: {
+            trigger: "#section-faces",
+            start: "top bottom",
+            end: "bottom top",
+            scrub: true,
+          },
+          xPercent: -35,
+          ease: "none",
+        },
+      );
+
+      // Scale-in, fade, and blur animation for the commission card
+      gsap.fromTo(
+        "#commission-card",
+        { scale: 0.85, opacity: 0, backdropFilter: "blur(0px)" },
+        {
+          scrollTrigger: {
+            trigger: "#section-faces",
+            start: "top 70%",
+            end: "top 30%",
+            scrub: true,
+          },
+          scale: 1,
+          opacity: 1,
+          backdropFilter: "blur(16px)",
+          ease: "power1.out",
+        },
+      );
+
+      // Section 4: Staggered entry for unreached people cards
+      gsap.from(".unreached-card", {
+        scrollTrigger: {
+          trigger: ".unreached-cards-container",
+          start: "top 95%",
+          end: "top 65%",
+          scrub: true,
+        },
+        y: 40,
+        opacity: 0,
+        stagger: 0.15,
+        ease: "power1.out",
+      });
+
+      // Section 5: Speakers stagger entrance
+      // gsap.from(".speaker-card", {
+      //   scrollTrigger: {
+      //     trigger: ".speakers-grid",
+      //     start: "top 95%",
+      //     end: "top 60%",
+      //     scrub: true,
+      //   },
+      //   y: 50,
+      //   opacity: 0,
+      //   stagger: 0.1,
+      //   ease: "power1.out",
+      // });
+
+      // Force recalculation after Tailwind CDN compiles styles & images load
+      window.addEventListener("load", () => {
+        ScrollTrigger.refresh();
+      });
+      // Fallback delay to capture asynchronous client-side CSS injection
+      setTimeout(() => {
+        ScrollTrigger.refresh();
+      }, 600);
+
+      // Section 7: CTA elements stagger slide up
+      gsap.from("#section-cta .flex-grow > div", {
+        scrollTrigger: {
+          trigger: "#section-cta",
+          start: "top 80%",
+          end: "top 40%",
+          scrub: true,
+        },
+        y: 50,
+        opacity: 0,
+        stagger: 0.15,
+      });
+
+      // FAQ Accordion Click Toggle
+      document.querySelectorAll(".faq-header").forEach((header) => {
+        header.addEventListener("click", () => {
+          const item = header.parentElement;
+          const body = item.querySelector(".faq-body");
+          const chevron = header.querySelector(".faq-chevron");
+          const isOpen = item.classList.contains("active");
+
+          // Close other FAQs
+          document.querySelectorAll(".faq-item").forEach((otherItem) => {
+            if (otherItem !== item && otherItem.classList.contains("active")) {
+              otherItem.classList.remove("active");
+              otherItem.querySelector(".faq-body").style.maxHeight = "0px";
+              otherItem.querySelector(".faq-chevron").style.transform = "rotate(0deg)";
+            }
+          });
+
+          // Toggle current FAQ
+          if (isOpen) {
+            item.classList.remove("active");
+            body.style.maxHeight = "0px";
+            chevron.style.transform = "rotate(0deg)";
+          } else {
+            item.classList.add("active");
+            body.style.maxHeight = body.scrollHeight + "px";
+            chevron.style.transform = "rotate(180deg)";
+          }
+        });
+      });
+
+      // 3D Tilt Effect for Flyer Card with dynamic reflective shine
+      const cardContainer = document.querySelector(".flyer-card-container");
+      const card = document.querySelector(".flyer-card");
+      const shine = document.querySelector(".flyer-shine");
+
+      if (cardContainer && card) {
+        cardContainer.addEventListener("mousemove", (e) => {
+          const rect = cardContainer.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+
+          const centerX = rect.width / 2;
+          const centerY = rect.height / 2;
+          const rotateX = ((y - centerY) / centerY) * -15; // Max 15 degree tilt
+          const rotateY = ((x - centerX) / centerX) * 15;
+
+          card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
+
+          if (shine) {
+            const px = (x / rect.width) * 100;
+            const py = (y / rect.height) * 100;
+            shine.style.background = `radial-gradient(circle at ${px}% ${py}%, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 65%)`;
+          }
+        });
+
+          cardContainer.addEventListener("mouseleave", () => {
+          card.style.transform = "rotateY(-10deg) rotateX(10deg) scale(1)";
+        });
+      }
+
+      // Fullscreen Menu Toggle Logic
+      const menuBtn = document.querySelector(".menu-btn");
+      const menuCloseBtn = document.querySelector(".menu-close-btn");
+      const menuOverlay = document.getElementById("menu-overlay");
+      const menuBackdrop = document.querySelector(".menu-backdrop");
+      const menuLinks = document.querySelectorAll(".menu-link");
+
+      let isMenuOpen = false;
+
+      const toggleMenu = () => {
+        isMenuOpen = !isMenuOpen;
+        if (isMenuOpen) {
+          menuOverlay.classList.remove("pointer-events-none");
+          document.body.style.overflow = "hidden"; // Prevent scrolling
+          
+          gsap.to(menuBackdrop, { opacity: 1, duration: 0.6, ease: "power2.out" });
+          gsap.to(menuCloseBtn, { opacity: 1, duration: 0.6, delay: 0.2, ease: "power2.out" });
+          gsap.to(menuLinks, {
+            y: 0,
+            opacity: 1,
+            duration: 0.7,
+            stagger: 0.05,
+            ease: "back.out(1.2)",
+            delay: 0.1
+          });
+        } else {
+          menuOverlay.classList.add("pointer-events-none");
+          document.body.style.overflow = "auto";
+          
+          gsap.to(menuCloseBtn, { opacity: 0, duration: 0.3, ease: "power2.in" });
+          gsap.to(menuLinks, {
+            y: 20,
+            opacity: 0,
+            duration: 0.4,
+            stagger: -0.03,
+            ease: "power2.in"
+          });
+          gsap.to(menuBackdrop, { opacity: 0, duration: 0.5, delay: 0.3, ease: "power2.in" });
+        }
+      };
+
+      if (menuBtn) menuBtn.addEventListener("click", toggleMenu);
+      if (menuCloseBtn) menuCloseBtn.addEventListener("click", toggleMenu);
+
+      // Close menu on link click
+      menuLinks.forEach(link => {
+        if(link.tagName.toLowerCase() === 'a') {
+          link.addEventListener("click", () => {
+            if (isMenuOpen) toggleMenu();
+          });
+        }
+      });
+    </script>
   </body>
 </html>
