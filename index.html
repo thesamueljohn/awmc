@@ -345,7 +345,7 @@
     >
       <!-- Left Side: Pinned Counter -->
       <div
-        class="w-full md:w-1/2 h-[50vh] md:h-screen flex flex-col justify-center items-center p-8 sticky top-0 bg-slate-50 z-10 border-b md:border-b-0 md:border-r border-slate-900/10 overflow-hidden"
+        class="w-full md:w-1/2 h-fit md:h-screen flex flex-col justify-center items-center p-8 md:sticky top-0 bg-slate-50 z-10 border-b md:border-b-0 md:border-r border-slate-900/10 overflow-hidden"
       >
         <!-- Rotating Blackhole Silhouette (Metaphor for spiritual void) -->
         <div
@@ -657,7 +657,6 @@
                 alt="Hassan"
               />
             </div>
-         
           </div>
 
           <!-- Card 2 -->
@@ -673,7 +672,6 @@
                 alt="Aarav"
               />
             </div>
-          
           </div>
 
           <!-- Card 3 -->
@@ -689,12 +687,11 @@
                 alt="Chen"
               />
             </div>
-           
           </div>
         </div>
       </div>
     </section>
-<!-- Section 7: The Call to Action (AWMC 2026) -->
+    <!-- Section 7: The Call to Action (AWMC 2026) -->
     <section
       id="section-cta"
       class="min-h-screen flex flex-col justify-between items-center py-24 px-8 relative overflow-hidden"
@@ -845,47 +842,87 @@
           </div>
         </div>
       </div>
-
-      
     </section>
     <!-- Section 5: Speakers Showcase -->
-    <section id="section-speakers" class="min-h-screen bg-white py-24 px-8 relative overflow-hidden flex flex-col justify-center items-center">
+    <section
+      id="section-speakers"
+      class="min-h-screen bg-white py-24 px-8 relative overflow-hidden flex flex-col justify-center items-center"
+    >
       <div class="max-w-6xl w-full mx-auto z-10 flex flex-col items-center">
-        <span class="text-orange-500 font-sans font-semibold tracking-[0.25em] text-xs uppercase mb-4">AWMC 2026 VOICES</span>
-        <h2 class="text-slate-900 font-sans font-black text-3xl md:text-5xl uppercase tracking-tight leading-none mb-4 text-center">
+        <span
+          class="text-orange-500 font-sans font-semibold tracking-[0.25em] text-xs uppercase mb-4"
+          >AWMC 2026 VOICES</span
+        >
+        <h2
+          class="text-slate-900 font-sans font-black text-3xl md:text-5xl uppercase tracking-tight leading-none mb-4 text-center"
+        >
           Conference Speakers
         </h2>
-        <p class="text-slate-600 text-sm md:text-base max-w-xl text-center leading-relaxed mb-16 select-none">
-          Learn from seasoned missions leaders, pioneers, and mobilizers dedicated to extending missions frontiers in His power.
+        <p
+          class="text-slate-600 text-sm md:text-base max-w-xl text-center leading-relaxed mb-16 select-none"
+        >
+          Learn from seasoned missions leaders, pioneers, and mobilizers
+          dedicated to extending missions frontiers in His power.
         </p>
 
         <!-- Speakers Grid -->
-        <div class="speakers-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
+        <div
+          class="speakers-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full"
+        >
           <!-- Speaker 1 -->
-          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
-            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
-              <img src="./assets/images/speakers/1.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Apostle I.D Lawon" />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div
+            class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer"
+          >
+            <div
+              class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100"
+            >
+              <img
+                src="./assets/images/speakers/1.png"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108"
+                alt="Apostle I.D Lawon"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
             </div>
             <div class="p-6 flex flex-col flex-grow justify-between">
               <div>
-                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Apostle I.D Lawon</h3>
+                <h3
+                  class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300"
+                >
+                  Apostle I.D Lawon
+                </h3>
                 <p class="text-slate-600 text-sm mt-2 leading-relaxed">
-                  Founding President & General Missions Director, Fullstature Missions International
+                  Founding President & General Missions Director, Fullstature
+                  Missions International
                 </p>
               </div>
             </div>
           </div>
 
           <!-- Speaker 2 -->
-          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
-            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
-              <img src="./assets/images/speakers/2.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Rev. Reuben E. Ezemadu" />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div
+            class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer"
+          >
+            <div
+              class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100"
+            >
+              <img
+                src="./assets/images/speakers/2.png"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108"
+                alt="Rev. Reuben E. Ezemadu"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
             </div>
             <div class="p-6 flex flex-col flex-grow justify-between">
               <div>
-                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Rev. Reuben E. Ezemadu</h3>
+                <h3
+                  class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300"
+                >
+                  Rev. Reuben E. Ezemadu
+                </h3>
                 <p class="text-slate-600 text-sm mt-2 leading-relaxed">
                   International Director, Christian Missionary Foundation Inc.
                 </p>
@@ -894,14 +931,28 @@
           </div>
 
           <!-- Speaker 3 -->
-          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
-            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
-              <img src="./assets/images/speakers/3.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="David Ogunshola" />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div
+            class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer"
+          >
+            <div
+              class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100"
+            >
+              <img
+                src="./assets/images/speakers/3.png"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108"
+                alt="David Ogunshola"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
             </div>
             <div class="p-6 flex flex-col flex-grow justify-between">
               <div>
-                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">David Ogunshola</h3>
+                <h3
+                  class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300"
+                >
+                  David Ogunshola
+                </h3>
                 <p class="text-slate-600 text-sm mt-2 leading-relaxed">
                   Innovation Catalyst & Missions Mobilizer
                 </p>
@@ -910,14 +961,28 @@
           </div>
 
           <!-- Speaker 4 -->
-          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
-            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
-              <img src="./assets/images/speakers/4.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Pastor Gboyega Olusola" />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div
+            class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer"
+          >
+            <div
+              class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100"
+            >
+              <img
+                src="./assets/images/speakers/4.png"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108"
+                alt="Pastor Gboyega Olusola"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
             </div>
             <div class="p-6 flex flex-col flex-grow justify-between">
               <div>
-                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Pastor Gboyega Olusola</h3>
+                <h3
+                  class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300"
+                >
+                  Pastor Gboyega Olusola
+                </h3>
                 <p class="text-slate-600 text-sm mt-2 leading-relaxed">
                   President & Fullstature Director for Member Care
                 </p>
@@ -926,30 +991,59 @@
           </div>
 
           <!-- Speaker 5 -->
-          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
-            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
-              <img src="./assets/images/speakers/5.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Dr. Kunle Ogunkolati" />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div
+            class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer"
+          >
+            <div
+              class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100"
+            >
+              <img
+                src="./assets/images/speakers/5.png"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108"
+                alt="Dr. Kunle Ogunkolati"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
             </div>
             <div class="p-6 flex flex-col flex-grow justify-between">
               <div>
-                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Dr. Kunle Ogunkolati</h3>
+                <h3
+                  class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300"
+                >
+                  Dr. Kunle Ogunkolati
+                </h3>
                 <p class="text-slate-600 text-sm mt-2 leading-relaxed">
-                  Vice Chairman, Centre for Biblical Christianity in Africa, Nigeria
+                  Vice Chairman, Centre for Biblical Christianity in Africa,
+                  Nigeria
                 </p>
               </div>
             </div>
           </div>
 
           <!-- Speaker 6 -->
-          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
-            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
-              <img src="./assets/images/speakers/6.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Rev. Ezekiel A. Adegbite" />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div
+            class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer"
+          >
+            <div
+              class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100"
+            >
+              <img
+                src="./assets/images/speakers/6.png"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108"
+                alt="Rev. Ezekiel A. Adegbite"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
             </div>
             <div class="p-6 flex flex-col flex-grow justify-between">
               <div>
-                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Rev. Ezekiel A. Adegbite</h3>
+                <h3
+                  class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300"
+                >
+                  Rev. Ezekiel A. Adegbite
+                </h3>
                 <p class="text-slate-600 text-sm mt-2 leading-relaxed">
                   President & Senior Pastor, Grace Abound Global Mission
                 </p>
@@ -958,14 +1052,28 @@
           </div>
 
           <!-- Speaker 7 -->
-          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
-            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
-              <img src="./assets/images/speakers/7.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Rev. (Dr.) Isaac Apata" />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div
+            class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer"
+          >
+            <div
+              class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100"
+            >
+              <img
+                src="./assets/images/speakers/7.png"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108"
+                alt="Rev. (Dr.) Isaac Apata"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
             </div>
             <div class="p-6 flex flex-col flex-grow justify-between">
               <div>
-                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Rev. (Dr.) Isaac Apata</h3>
+                <h3
+                  class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300"
+                >
+                  Rev. (Dr.) Isaac Apata
+                </h3>
                 <p class="text-slate-600 text-sm mt-2 leading-relaxed">
                   International Director, The Soul Refreshers Foundation Inc.
                 </p>
@@ -974,14 +1082,28 @@
           </div>
 
           <!-- Speaker 8 -->
-          <div class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer">
-            <div class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100">
-              <img src="./assets/images/speakers/8.png" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108" alt="Pastor Chris Sola Mene" />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div
+            class="speaker-card group bg-white border border-slate-900/10 rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(15,23,42,0.02)] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(234,88,12,0.1)] flex flex-col cursor-pointer"
+          >
+            <div
+              class="relative aspect-[4/5] w-full overflow-hidden bg-slate-100"
+            >
+              <img
+                src="./assets/images/speakers/8.png"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108"
+                alt="Pastor Chris Sola Mene"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
             </div>
             <div class="p-6 flex flex-col flex-grow justify-between">
               <div>
-                <h3 class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300">Pastor Chris Sola Mene</h3>
+                <h3
+                  class="font-sans font-bold text-lg text-slate-900 group-hover:text-orange-500 transition-colors duration-300"
+                >
+                  Pastor Chris Sola Mene
+                </h3>
                 <p class="text-slate-600 text-sm mt-2 leading-relaxed">
                   Senior Pastor, Dayspring Christian Centre
                 </p>
@@ -993,150 +1115,359 @@
     </section>
 
     <!-- Section 6: Frequently Asked Questions -->
-    <section id="section-faqs" class="min-h-screen bg-slate-50 py-24 px-8 relative overflow-hidden flex flex-col justify-center items-center">
+    <section
+      id="section-faqs"
+      class="min-h-screen bg-slate-50 py-24 px-8 relative overflow-hidden flex flex-col justify-center items-center"
+    >
       <div class="max-w-4xl w-full mx-auto z-10 flex flex-col items-center">
-        <span class="text-orange-500 font-sans font-semibold tracking-[0.25em] text-xs uppercase mb-4">CONFERENCE FAQ</span>
-        <h2 class="text-slate-900 font-sans font-black text-3xl md:text-5xl uppercase tracking-tight leading-none mb-4 text-center">
+        <span
+          class="text-orange-500 font-sans font-semibold tracking-[0.25em] text-xs uppercase mb-4"
+          >CONFERENCE FAQ</span
+        >
+        <h2
+          class="text-slate-900 font-sans font-black text-3xl md:text-5xl uppercase tracking-tight leading-none mb-4 text-center"
+        >
           Questions & Answers
         </h2>
-        <p class="text-slate-600 text-sm md:text-base max-w-xl text-center leading-relaxed mb-16 select-none">
-          Find clear answers to help you prepare, register, and plan for your attendance at AWMC 2026.
+        <p
+          class="text-slate-600 text-sm md:text-base max-w-xl text-center leading-relaxed mb-16 select-none"
+        >
+          Find clear answers to help you prepare, register, and plan for your
+          attendance at AWMC 2026.
         </p>
 
         <!-- FAQs Accordion List -->
         <div class="faq-list w-full flex flex-col gap-4">
           <!-- FAQ 1 -->
-          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
-            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
-              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+          <div
+            class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20"
+          >
+            <div
+              class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group"
+            >
+              <span
+                class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300"
+              >
                 What do I stand to gain from the conference?
               </span>
-              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              <svg
+                class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  d="M19 9l-7 7-7-7"
+                />
               </svg>
             </div>
-            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
-              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
-                At this conference, you'll have the opportunity to connect with like-minded individuals who are passionate about advancing global missions, discover innovative approaches to spreading the gospel, learn about effective mission strategies, and gain practical tools to overcome challenges in the field. From engaging workshops and breakout sessions to thought-provoking panel discussions and exhibitions, our lineup of esteemed speakers will share their experiences, insights, and strategies for making a lasting impact in global missions. Whether you're a seasoned missionary, a church leader, or simply curious about missions, this conference is for you.
+            <div
+              class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
+            >
+              <div
+                class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed"
+              >
+                At this conference, you'll have the opportunity to connect with
+                like-minded individuals who are passionate about advancing
+                global missions, discover innovative approaches to spreading the
+                gospel, learn about effective mission strategies, and gain
+                practical tools to overcome challenges in the field. From
+                engaging workshops and breakout sessions to thought-provoking
+                panel discussions and exhibitions, our lineup of esteemed
+                speakers will share their experiences, insights, and strategies
+                for making a lasting impact in global missions. Whether you're a
+                seasoned missionary, a church leader, or simply curious about
+                missions, this conference is for you.
               </div>
             </div>
           </div>
 
           <!-- FAQ 2 -->
-          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
-            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
-              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+          <div
+            class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20"
+          >
+            <div
+              class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group"
+            >
+              <span
+                class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300"
+              >
                 When and where is the conference being held?
               </span>
-              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              <svg
+                class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  d="M19 9l-7 7-7-7"
+                />
               </svg>
             </div>
-            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
-              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
-                The conference will be held from August 12-16, 2026, at the Conference Center for the Nations, 4 Parliament Highway, Opposite Oyo state House of Assembly, By Federal INEC, Secretariat, Ibadan, Nigeria.
+            <div
+              class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
+            >
+              <div
+                class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed"
+              >
+                The conference will be held from August 12-16, 2026, at the
+                Conference Center for the Nations, 4 Parliament Highway,
+                Opposite Oyo state House of Assembly, By Federal INEC,
+                Secretariat, Ibadan, Nigeria.
               </div>
             </div>
           </div>
 
           <!-- FAQ 3 -->
-          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
-            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
-              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+          <div
+            class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20"
+          >
+            <div
+              class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group"
+            >
+              <span
+                class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300"
+              >
                 How do I register for the conference?
               </span>
-              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              <svg
+                class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  d="M19 9l-7 7-7-7"
+                />
               </svg>
             </div>
-            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
-              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
-                Although there are arrangements for physical registration at the conference venue, every intending participant is expected to register online via the registration form. This is to better help us plan and prepare for conference attendees.
+            <div
+              class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
+            >
+              <div
+                class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed"
+              >
+                Although there are arrangements for physical registration at the
+                conference venue, every intending participant is expected to
+                register online via the registration form. This is to better
+                help us plan and prepare for conference attendees.
               </div>
             </div>
           </div>
 
           <!-- FAQ 4 -->
-          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
-            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
-              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+          <div
+            class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20"
+          >
+            <div
+              class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group"
+            >
+              <span
+                class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300"
+              >
                 Can I participate virtually?
               </span>
-              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              <svg
+                class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  d="M19 9l-7 7-7-7"
+                />
               </svg>
             </div>
-            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
-              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
-                Yes, you can participate online. The event will be broadcast live via YouTube, Facebook, and other social media platforms. You can also download conference materials from the website to follow along.
+            <div
+              class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
+            >
+              <div
+                class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed"
+              >
+                Yes, you can participate online. The event will be broadcast
+                live via YouTube, Facebook, and other social media platforms.
+                You can also download conference materials from the website to
+                follow along.
               </div>
             </div>
           </div>
 
           <!-- FAQ 5 -->
-          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
-            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
-              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
-                What are the lodging and lodging arrangements for physical attendees?
+          <div
+            class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20"
+          >
+            <div
+              class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group"
+            >
+              <span
+                class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300"
+              >
+                What are the lodging and lodging arrangements for physical
+                attendees?
               </span>
-              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              <svg
+                class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  d="M19 9l-7 7-7-7"
+                />
               </svg>
             </div>
-            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
-              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
-                Adequate transport arrangement has been put in place for safe and easy commuting of all conference participants. Food vendors will also be around to sell meals at reasonable prices. General lodging arrangements have been put in place. Should you decide to make personal lodging arrangements, see Hotel Booking Information for more.
+            <div
+              class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
+            >
+              <div
+                class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed"
+              >
+                Adequate transport arrangement has been put in place for safe
+                and easy commuting of all conference participants. Food vendors
+                will also be around to sell meals at reasonable prices. General
+                lodging arrangements have been put in place. Should you decide
+                to make personal lodging arrangements, see Hotel Booking
+                Information for more.
               </div>
             </div>
           </div>
 
           <!-- FAQ 6 -->
-          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
-            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
-              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+          <div
+            class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20"
+          >
+            <div
+              class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group"
+            >
+              <span
+                class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300"
+              >
                 Is there any arrangement for children and teens?
               </span>
-              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              <svg
+                class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  d="M19 9l-7 7-7-7"
+                />
               </svg>
             </div>
-            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
-              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
-                Yes, there is. Our History Makers Church will be holding 'Children in Missions', a special event for kids and teenagers during the course of the conference. Adequate security arrangements have been made to ensure the safety of everyone at the event.
+            <div
+              class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
+            >
+              <div
+                class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed"
+              >
+                Yes, there is. Our History Makers Church will be holding
+                'Children in Missions', a special event for kids and teenagers
+                during the course of the conference. Adequate security
+                arrangements have been made to ensure the safety of everyone at
+                the event.
               </div>
             </div>
           </div>
 
           <!-- FAQ 7 -->
-          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
-            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
-              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+          <div
+            class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20"
+          >
+            <div
+              class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group"
+            >
+              <span
+                class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300"
+              >
                 I would like to give to this initiative. How do I go about it?
               </span>
-              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              <svg
+                class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  d="M19 9l-7 7-7-7"
+                />
               </svg>
             </div>
-            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
-              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
-                AWMC has a non-profit status. In order to make the conference available and affordable to every member of the family of Christ, no registration fee is required. It is financed through: Donations from sponsoring bodies, display spaces for missions exhibitions, offerings given at the conference, and adverts supporting missions. You are invited to share in the financial support of AWMC by making donations to our bank account: FMI - Advancing World Missions Conference (1013901151, Zenith Bank PLC Bodija Ibadan).
+            <div
+              class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
+            >
+              <div
+                class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed"
+              >
+                AWMC has a non-profit status. In order to make the conference
+                available and affordable to every member of the family of
+                Christ, no registration fee is required. It is financed through:
+                Donations from sponsoring bodies, display spaces for missions
+                exhibitions, offerings given at the conference, and adverts
+                supporting missions. You are invited to share in the financial
+                support of AWMC by making donations to our bank account: FMI -
+                Advancing World Missions Conference (1013901151, Zenith Bank PLC
+                Bodija Ibadan).
               </div>
             </div>
           </div>
 
           <!-- FAQ 8 -->
-          <div class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20">
-            <div class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group">
-              <span class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300">
+          <div
+            class="faq-item border border-slate-900/10 rounded-2xl bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 shadow-[0_4px_12px_rgba(15,23,42,0.02)] hover:border-slate-900/20"
+          >
+            <div
+              class="faq-header w-full flex justify-between items-center p-6 cursor-pointer select-none text-left group"
+            >
+              <span
+                class="font-sans font-bold text-base md:text-lg text-slate-900 group-hover:text-orange-600 transition-colors duration-300"
+              >
                 How can I get more information or ask further questions?
               </span>
-              <svg class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              <svg
+                class="faq-chevron w-5 h-5 text-slate-400 group-hover:text-slate-900 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  d="M19 9l-7 7-7-7"
+                />
               </svg>
             </div>
-            <div class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
-              <div class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed">
-                Contact us at awmcconference@gmail.com or call +2348033542957, +2348023339638, or +2348035793900.
+            <div
+              class="faq-body max-h-0 overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
+            >
+              <div
+                class="p-6 pt-0 border-t border-slate-900/5 text-slate-600 text-sm md:text-base leading-relaxed"
+              >
+                Contact us at awmcconference@gmail.com or call +2348033542957,
+                +2348023339638, or +2348035793900.
               </div>
             </div>
           </div>
@@ -1145,158 +1476,377 @@
     </section>
 
     <!-- Section 6.5: Our Partners -->
-    <section id="section-partners" class="bg-white py-16 px-8 relative overflow-hidden flex flex-col justify-center items-center border-t border-b border-slate-900/5">
+    <section
+      id="section-partners"
+      class="bg-white py-16 px-8 relative overflow-hidden flex flex-col justify-center items-center border-t border-b border-slate-900/5"
+    >
       <div class="max-w-6xl w-full mx-auto z-10 flex flex-col items-center">
-        <span class="text-orange-500 font-sans font-semibold tracking-[0.25em] text-xs uppercase mb-8 select-none">OUR PARTNERS</span>
-        
+        <span
+          class="text-orange-500 font-sans font-semibold tracking-[0.25em] text-xs uppercase mb-8 select-none"
+          >OUR PARTNERS</span
+        >
+
         <!-- Infinite Loop Slider Track -->
         <div class="relative w-full max-w-5xl overflow-hidden py-4 select-none">
           <!-- Vignette Gradient Shadows -->
-          <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
-          <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
+          <div
+            class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"
+          ></div>
+          <div
+            class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"
+          ></div>
 
           <!-- Slider Inner Track -->
           <div class="flex animate-scroll-slider w-max">
             <!-- Set 1 -->
             <div class="flex flex-shrink-0 items-center gap-16 pr-16">
-              <img src="./assets/images/partners-slider/0-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 0" />
-              <img src="./assets/images/partners-slider/1-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 1" />
-              <img src="./assets/images/partners-slider/2-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 2" />
-              <img src="./assets/images/partners-slider/3-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 3" />
-              <img src="./assets/images/partners-slider/4-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 4" />
-              <img src="./assets/images/partners-slider/6-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 6" />
-              <img src="./assets/images/partners-slider/7-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 7" />
-              <img src="./assets/images/partners-slider/9-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 9" />
-              <img src="./assets/images/partners-slider/10-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 10" />
-              <img src="./assets/images/partners-slider/11-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 11" />
-              <img src="./assets/images/partners-slider/12-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 12" />
-              <img src="./assets/images/partners-slider/13-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 13" />
-              <img src="./assets/images/partners-slider/14-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 14" />
-              <img src="./assets/images/partners-slider/15-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 15" />
-              <img src="./assets/images/partners-slider/17-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 17" />
-              <img src="./assets/images/partners-slider/19-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 19" />
-              <img src="./assets/images/partners-slider/20-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 20" />
-              <img src="./assets/images/partners-slider/21-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 21" />
-              <img src="./assets/images/partners-slider/22-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 22" />
-              <img src="./assets/images/partners-slider/24-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 24" />
+              <img
+                src="./assets/images/partners-slider/0-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 0"
+              />
+              <img
+                src="./assets/images/partners-slider/1-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 1"
+              />
+              <img
+                src="./assets/images/partners-slider/2-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 2"
+              />
+              <img
+                src="./assets/images/partners-slider/3-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 3"
+              />
+              <img
+                src="./assets/images/partners-slider/4-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 4"
+              />
+              <img
+                src="./assets/images/partners-slider/6-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 6"
+              />
+              <img
+                src="./assets/images/partners-slider/7-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 7"
+              />
+              <img
+                src="./assets/images/partners-slider/9-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 9"
+              />
+              <img
+                src="./assets/images/partners-slider/10-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 10"
+              />
+              <img
+                src="./assets/images/partners-slider/11-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 11"
+              />
+              <img
+                src="./assets/images/partners-slider/12-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 12"
+              />
+              <img
+                src="./assets/images/partners-slider/13-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 13"
+              />
+              <img
+                src="./assets/images/partners-slider/14-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 14"
+              />
+              <img
+                src="./assets/images/partners-slider/15-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 15"
+              />
+              <img
+                src="./assets/images/partners-slider/17-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 17"
+              />
+              <img
+                src="./assets/images/partners-slider/19-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 19"
+              />
+              <img
+                src="./assets/images/partners-slider/20-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 20"
+              />
+              <img
+                src="./assets/images/partners-slider/21-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 21"
+              />
+              <img
+                src="./assets/images/partners-slider/22-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 22"
+              />
+              <img
+                src="./assets/images/partners-slider/24-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 24"
+              />
             </div>
 
             <!-- Set 2 (Duplicate for Seamless Loop) -->
             <div class="flex flex-shrink-0 items-center gap-16 pr-16">
-              <img src="./assets/images/partners-slider/0-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 0" />
-              <img src="./assets/images/partners-slider/1-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 1" />
-              <img src="./assets/images/partners-slider/2-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 2" />
-              <img src="./assets/images/partners-slider/3-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 3" />
-              <img src="./assets/images/partners-slider/4-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 4" />
-              <img src="./assets/images/partners-slider/6-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 6" />
-              <img src="./assets/images/partners-slider/7-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 7" />
-              <img src="./assets/images/partners-slider/9-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 9" />
-              <img src="./assets/images/partners-slider/10-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 10" />
-              <img src="./assets/images/partners-slider/11-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 11" />
-              <img src="./assets/images/partners-slider/12-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 12" />
-              <img src="./assets/images/partners-slider/13-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 13" />
-              <img src="./assets/images/partners-slider/14-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 14" />
-              <img src="./assets/images/partners-slider/15-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 15" />
-              <img src="./assets/images/partners-slider/17-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 17" />
-              <img src="./assets/images/partners-slider/19-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 19" />
-              <img src="./assets/images/partners-slider/20-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 20" />
-              <img src="./assets/images/partners-slider/21-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 21" />
-              <img src="./assets/images/partners-slider/22-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 22" />
-              <img src="./assets/images/partners-slider/24-1-300x300.png" class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300" alt="Logo 24" />
+              <img
+                src="./assets/images/partners-slider/0-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 0"
+              />
+              <img
+                src="./assets/images/partners-slider/1-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 1"
+              />
+              <img
+                src="./assets/images/partners-slider/2-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 2"
+              />
+              <img
+                src="./assets/images/partners-slider/3-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 3"
+              />
+              <img
+                src="./assets/images/partners-slider/4-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 4"
+              />
+              <img
+                src="./assets/images/partners-slider/6-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 6"
+              />
+              <img
+                src="./assets/images/partners-slider/7-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 7"
+              />
+              <img
+                src="./assets/images/partners-slider/9-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 9"
+              />
+              <img
+                src="./assets/images/partners-slider/10-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 10"
+              />
+              <img
+                src="./assets/images/partners-slider/11-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 11"
+              />
+              <img
+                src="./assets/images/partners-slider/12-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 12"
+              />
+              <img
+                src="./assets/images/partners-slider/13-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 13"
+              />
+              <img
+                src="./assets/images/partners-slider/14-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 14"
+              />
+              <img
+                src="./assets/images/partners-slider/15-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 15"
+              />
+              <img
+                src="./assets/images/partners-slider/17-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 17"
+              />
+              <img
+                src="./assets/images/partners-slider/19-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 19"
+              />
+              <img
+                src="./assets/images/partners-slider/20-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 20"
+              />
+              <img
+                src="./assets/images/partners-slider/21-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 21"
+              />
+              <img
+                src="./assets/images/partners-slider/22-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 22"
+              />
+              <img
+                src="./assets/images/partners-slider/24-1-300x300.png"
+                class="h-[52px] md:h-[64px] w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+                alt="Logo 24"
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Footer -->
-      <footer
-        class="w-full max-w-6xl flex flex-col md:flex-row justify-between items-center gap-6 border-t border-slate-900/10 py-12 mx-auto text-slate-500 text-xs z-10"
-      >
-        <p>&copy; AWMC 2026. All Rights Reserved.</p>
-        <div class="flex gap-8">
-          <a href="#" class="hover:text-slate-950 transition-colors"
-            >Privacy Policy</a
-          >
-          <a href="#" class="hover:text-slate-950 transition-colors"
-            >Terms of Service</a
-          >
-          <a href="#" class="hover:text-slate-950 transition-colors"
-            >Contact Us</a
-          >
-        </div>
-        <!-- Social Links from hero bottom -->
-        <div class="flex gap-5 items-center">
-          <a
-            href="#"
-            aria-label="YouTube"
-            class="opacity-60 hover:opacity-100 transition-opacity"
-          >
-            <img
-              src="./assets/images/2026/youtube.svg"
-              class="h-4 w-auto filter invert-[1]"
-              alt="YouTube"
-            />
-          </a>
-          <a
-            href="#"
-            aria-label="Instagram"
-            class="opacity-60 hover:opacity-100 transition-opacity"
-          >
-            <img
-              src="./assets/images/2026/instagram.svg"
-              class="h-4 w-auto filter invert-[1]"
-              alt="Instagram"
-            />
-          </a>
-          <a
-            href="#"
-            aria-label="X"
-            class="opacity-60 hover:opacity-100 transition-opacity"
-          >
-            <img
-              src="./assets/images/2026/x.svg"
-              class="h-4 w-auto filter invert-[1]"
-              alt="X"
-            />
-          </a>
-          <a
-            href="#"
-            aria-label="Facebook"
-            class="opacity-60 hover:opacity-100 transition-opacity"
-          >
-            <img
-              src="./assets/images/2026/facebook.svg"
-              class="h-4 w-auto filter invert-[1]"
-              alt="Facebook"
-            />
-          </a>
-        </div>
-      </footer>
-
-    
+    <footer
+      class="w-full max-w-6xl flex flex-col md:flex-row justify-between items-center gap-6 border-t border-slate-900/10 py-12 mx-auto text-slate-500 text-xs z-10"
+    >
+      <p>&copy; AWMC 2026. All Rights Reserved.</p>
+      <div class="flex gap-8">
+        <a href="#" class="hover:text-slate-950 transition-colors"
+          >Privacy Policy</a
+        >
+        <a href="#" class="hover:text-slate-950 transition-colors"
+          >Terms of Service</a
+        >
+        <a href="#" class="hover:text-slate-950 transition-colors"
+          >Contact Us</a
+        >
+      </div>
+      <!-- Social Links from hero bottom -->
+      <div class="flex gap-5 items-center">
+        <a
+          href="#"
+          aria-label="YouTube"
+          class="opacity-60 hover:opacity-100 transition-opacity"
+        >
+          <img
+            src="./assets/images/2026/youtube.svg"
+            class="h-4 w-auto filter invert-[1]"
+            alt="YouTube"
+          />
+        </a>
+        <a
+          href="#"
+          aria-label="Instagram"
+          class="opacity-60 hover:opacity-100 transition-opacity"
+        >
+          <img
+            src="./assets/images/2026/instagram.svg"
+            class="h-4 w-auto filter invert-[1]"
+            alt="Instagram"
+          />
+        </a>
+        <a
+          href="#"
+          aria-label="X"
+          class="opacity-60 hover:opacity-100 transition-opacity"
+        >
+          <img
+            src="./assets/images/2026/x.svg"
+            class="h-4 w-auto filter invert-[1]"
+            alt="X"
+          />
+        </a>
+        <a
+          href="#"
+          aria-label="Facebook"
+          class="opacity-60 hover:opacity-100 transition-opacity"
+        >
+          <img
+            src="./assets/images/2026/facebook.svg"
+            class="h-4 w-auto filter invert-[1]"
+            alt="Facebook"
+          />
+        </a>
+      </div>
+    </footer>
 
     <!-- Premium Fullscreen Glassmorphic Menu Overlay -->
-    <div id="menu-overlay" class="fixed inset-0 z-50 pointer-events-none flex flex-col justify-center items-center">
+    <div
+      id="menu-overlay"
+      class="fixed inset-0 z-50 pointer-events-none flex flex-col justify-center items-center"
+    >
       <!-- Dark blur backdrop -->
-      <div class="menu-backdrop absolute inset-0 bg-slate-950/90 backdrop-blur-xl opacity-0 transition-opacity duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"></div>
-      
+      <div
+        class="menu-backdrop absolute inset-0 bg-slate-950/90 backdrop-blur-xl opacity-0 transition-opacity duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
+      ></div>
+
       <!-- Close Button -->
-      <button class="menu-close-btn absolute top-10 right-12 z-10 w-12 h-12 flex items-center justify-center rounded-full bg-white/10 border border-white/20 text-white opacity-0 hover:bg-white/20 hover:scale-110 transition-all duration-300 max-520:top-6 max-520:right-6 pointer-events-auto cursor-pointer">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      <button
+        class="menu-close-btn absolute top-10 right-12 z-10 w-12 h-12 flex items-center justify-center rounded-full bg-white/10 border border-white/20 text-white opacity-0 hover:bg-white/20 hover:scale-110 transition-all duration-300 max-520:top-6 max-520:right-6 pointer-events-auto cursor-pointer"
+      >
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          ></path>
+        </svg>
       </button>
 
       <!-- Navigation Links -->
-      <nav class="relative z-10 flex flex-col items-center gap-6 md:gap-8 text-center mt-8">
-        <a href="#" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">Home</a>
-        <a href="#section-stats" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">The Stats</a>
-        <a href="#section-globe" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">10/40 Window</a>
-        <a href="#section-faces" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">Stories</a>
-        <a href="#section-speakers" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">Speakers</a>
-        <a href="#section-faqs" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">FAQs</a>
-        <a href="#section-partners" class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto">Partners</a>
-        
-        <div class="w-16 h-[1px] bg-white/20 my-2 opacity-0 menu-link translate-y-8"></div>
-        
+      <nav
+        class="relative z-10 flex flex-col items-center gap-6 md:gap-8 text-center mt-8"
+      >
+        <a
+          href="#"
+          class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto"
+          >Home</a
+        >
+        <a
+          href="#section-stats"
+          class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto"
+          >The Stats</a
+        >
+        <a
+          href="#section-globe"
+          class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto"
+          >10/40 Window</a
+        >
+        <a
+          href="#section-faces"
+          class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto"
+          >Stories</a
+        >
+        <a
+          href="#section-speakers"
+          class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto"
+          >Speakers</a
+        >
+        <a
+          href="#section-faqs"
+          class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto"
+          >FAQs</a
+        >
+        <a
+          href="#section-partners"
+          class="menu-link text-white font-sans font-black text-3xl md:text-5xl uppercase tracking-tighter opacity-0 translate-y-8 hover:text-orange-500 transition-colors duration-300 pointer-events-auto"
+          >Partners</a
+        >
+
+        <div
+          class="w-16 h-[1px] bg-white/20 my-2 opacity-0 menu-link translate-y-8"
+        ></div>
+
         <!-- <div class="flex gap-6 menu-link opacity-0 translate-y-8 pointer-events-auto">
           <a href="./pages/schedule.html" class="text-orange-400 hover:text-white font-sans font-semibold text-sm uppercase tracking-widest transition-colors duration-300">Schedule</a>
           <a href="./pages/breakout.html" class="text-orange-400 hover:text-white font-sans font-semibold text-sm uppercase tracking-widest transition-colors duration-300">Breakouts</a>
@@ -1566,18 +2116,18 @@
       );
 
       // Section 4: Staggered entry for unreached people cards
-      gsap.from(".unreached-card", {
-        scrollTrigger: {
-          trigger: ".unreached-cards-container",
-          start: "top 95%",
-          end: "top 65%",
-          scrub: true,
-        },
-        y: 40,
-        opacity: 0,
-        stagger: 0.15,
-        ease: "power1.out",
-      });
+      // gsap.from(".unreached-card", {
+      //   scrollTrigger: {
+      //     trigger: ".unreached-cards-container",
+      //     start: "top 95%",
+      //     end: "top 0%",
+      //     scrub: true,
+      //   },
+      //   y: 40,
+      //   opacity: 0.5,
+      //   stagger: 0.15,
+      //   ease: "power1.out",
+      // });
 
       // Section 5: Speakers stagger entrance
       // gsap.from(".speaker-card", {
@@ -1588,7 +2138,7 @@
       //     scrub: true,
       //   },
       //   y: 50,
-      //   opacity: 0,
+      //   opacity: 1,
       //   stagger: 0.1,
       //   ease: "power1.out",
       // });
@@ -1628,7 +2178,8 @@
             if (otherItem !== item && otherItem.classList.contains("active")) {
               otherItem.classList.remove("active");
               otherItem.querySelector(".faq-body").style.maxHeight = "0px";
-              otherItem.querySelector(".faq-chevron").style.transform = "rotate(0deg)";
+              otherItem.querySelector(".faq-chevron").style.transform =
+                "rotate(0deg)";
             }
           });
 
@@ -1670,7 +2221,7 @@
           }
         });
 
-          cardContainer.addEventListener("mouseleave", () => {
+        cardContainer.addEventListener("mouseleave", () => {
           card.style.transform = "rotateY(-10deg) rotateX(10deg) scale(1)";
         });
       }
@@ -1689,30 +2240,48 @@
         if (isMenuOpen) {
           menuOverlay.classList.remove("pointer-events-none");
           document.body.style.overflow = "hidden"; // Prevent scrolling
-          
-          gsap.to(menuBackdrop, { opacity: 1, duration: 0.6, ease: "power2.out" });
-          gsap.to(menuCloseBtn, { opacity: 1, duration: 0.6, delay: 0.2, ease: "power2.out" });
+
+          gsap.to(menuBackdrop, {
+            opacity: 1,
+            duration: 0.6,
+            ease: "power2.out",
+          });
+          gsap.to(menuCloseBtn, {
+            opacity: 1,
+            duration: 0.6,
+            delay: 0.2,
+            ease: "power2.out",
+          });
           gsap.to(menuLinks, {
             y: 0,
             opacity: 1,
             duration: 0.7,
             stagger: 0.05,
             ease: "back.out(1.2)",
-            delay: 0.1
+            delay: 0.1,
           });
         } else {
           menuOverlay.classList.add("pointer-events-none");
           document.body.style.overflow = "auto";
-          
-          gsap.to(menuCloseBtn, { opacity: 0, duration: 0.3, ease: "power2.in" });
+
+          gsap.to(menuCloseBtn, {
+            opacity: 0,
+            duration: 0.3,
+            ease: "power2.in",
+          });
           gsap.to(menuLinks, {
             y: 20,
             opacity: 0,
             duration: 0.4,
             stagger: -0.03,
-            ease: "power2.in"
+            ease: "power2.in",
           });
-          gsap.to(menuBackdrop, { opacity: 0, duration: 0.5, delay: 0.3, ease: "power2.in" });
+          gsap.to(menuBackdrop, {
+            opacity: 0,
+            duration: 0.5,
+            delay: 0.3,
+            ease: "power2.in",
+          });
         }
       };
 
@@ -1720,8 +2289,8 @@
       if (menuCloseBtn) menuCloseBtn.addEventListener("click", toggleMenu);
 
       // Close menu on link click
-      menuLinks.forEach(link => {
-        if(link.tagName.toLowerCase() === 'a') {
+      menuLinks.forEach((link) => {
+        if (link.tagName.toLowerCase() === "a") {
           link.addEventListener("click", () => {
             if (isMenuOpen) toggleMenu();
           });
