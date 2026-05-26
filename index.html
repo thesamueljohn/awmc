@@ -92,6 +92,20 @@
         }
       }
     </style>
+    <!-- Standard CSS Fallback for client-side Tailwind animations (prevents compilation bugs in Browser CDN) -->
+    <style>
+      @keyframes logoScroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+      .animate-scroll-slider {
+        animation: logoScroll 35s linear infinite !important;
+      }
+    </style>
   </head>
   <body
     class="m-0 font-sans bg-slate-50 text-slate-900 overflow-y-auto overflow-x-hidden"
