@@ -563,62 +563,62 @@
         >
           <img
             src="./assets/images/2026/hero-img/1.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
           <img
             src="./assets/images/2026/hero-img/2.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
           <img
             src="./assets/images/2026/hero-img/3.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
           <img
             src="./assets/images/2026/hero-img/4.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
           <img
             src="./assets/images/2026/hero-img/5.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
           <img
             src="./assets/images/2026/hero-img/6.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
           <img
             src="./assets/images/2026/hero-img/7.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
           <img
             src="./assets/images/2026/hero-img/8.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
           <img
             src="./assets/images/2026/hero-img/1.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
           <img
             src="./assets/images/2026/hero-img/2.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
           <img
             src="./assets/images/2026/hero-img/3.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
           <img
             src="./assets/images/2026/hero-img/4.jpg"
-            class="w-[200px] h-full object-cover"
+            class="w-[200px] h-full object-cover filter grayscale-80"
             alt=""
           />
         </div>
@@ -1791,7 +1791,7 @@
     <!-- Premium Fullscreen Glassmorphic Menu Overlay -->
     <div
       id="menu-overlay"
-      class="fixed inset-0 z-50 pointer-events-none flex flex-col justify-center items-center"
+      class="fixed inset-0 z-50 pointer-events-none flex flex-col justify-center items-center overflow-hidden"
     >
       <!-- Dark blur backdrop -->
       <div
@@ -1819,7 +1819,7 @@
 
       <!-- Navigation Links -->
       <nav
-        class="relative z-10 flex flex-col items-center gap-6 md:gap-8 text-center mt-8"
+        class="relative z-10 flex flex-col items-center gap-4 md:gap-8 text-center py-8 max-h-[90vh] overflow-y-auto"
       >
         <a
           href="#"
@@ -2276,7 +2276,7 @@
           });
         } else {
           menuOverlay.classList.add("pointer-events-none");
-          document.body.style.overflow = "auto";
+          document.body.style.overflow = ""; // Reset to stylesheet default (overflow-y-auto overflow-x-hidden)
 
           gsap.to(menuCloseBtn, {
             opacity: 0,
