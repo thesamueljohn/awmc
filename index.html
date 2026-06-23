@@ -110,6 +110,11 @@
     </style>
     <!-- Standard CSS Fallback for client-side Tailwind animations (prevents compilation bugs in Browser CDN) -->
     <style>
+      html,
+      body {
+        overflow-x: hidden;
+        max-width: 100%;
+      }
       @keyframes logoScroll {
         0% {
           transform: translateX(0);
