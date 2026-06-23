@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thesamueljohn.github.io/awmc/sitemap.xml
